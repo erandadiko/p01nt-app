@@ -1,0 +1,150 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  trainer
+  player
+  sportlover
+}
+
+enum Sport {
+  football
+  basketball
+  volleyball
+  taekwondo
+}
+
+enum Federation {
+  FSHF
+  FSHB
+  FSHV
+  ATF
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  role      Role
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  player  Player?
+  trainer Trainer?
+
+  @@map("users")
+}
+
+model Player {
+  id        Int      @id @default(autoincrement())
+  name      String
+  age       Int?
+  gender    String?
+  sport     Sport
+  position  String?
+  stats     Json?
+  imageUrl  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  teamId Int?
+  team   Team?   @relation(fields: [teamId], references: [id])
+  userId Int?    @unique
+  user   User?   @relation(fields: [userId], references: [id])
+
+  @@map("players")
+}
+
+model Trainer {
+  id           Int      @id @default(autoincrement())
+  name         String
+  sport        Sport
+  teamsManaged Json?
+  imageUrl     String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // Relations
+  teams  Team[]
+  userId Int?   @unique
+  user   User?  @relation(fields: [userId], references: [id])
+
+  @@map("trainers")
+}
+
+model Team {
+  id         Int        @id @default(autoincrement())
+  name       String
+  sport      Sport
+  federation Federation
+  logoUrl    String?
+  stats      Json?
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+
+  // Relations
+  players      Player[]
+  trainerId    Int?
+  trainer      Trainer?  @relation(fields: [trainerId], references: [id])
+  homeMatches  Match[]   @relation("HomeTeam")
+  awayMatches  Match[]   @relation("AwayTeam")
+
+  @@map("teams")
+}
+
+model Match {
+  id         Int        @id @default(autoincrement())
+  date       DateTime
+  score      String?
+  status     String     @default("scheduled") // scheduled, live, completed
+  venue      String?
+  federation Federation
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+
+  // Relations
+  team1Id Int
+  team1   Team @relation("HomeTeam", fields: [team1Id], references: [id])
+  team2Id Int
+  team2   Team @relation("AwayTeam", fields: [team2Id], references: [id])
+
+  @@map("matches")
+}
+
+model News {
+  id          Int        @id @default(autoincrement())
+  title       String
+  description String
+  content     String?
+  imageUrl    String?
+  link        String?
+  federation  Federation
+  date        DateTime   @default(now())
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@map("news")
+}
+
+model ScrapingLog {
+  id         Int        @id @default(autoincrement())
+  federation Federation
+  status     String     // success, failed
+  message    String?
+  itemsCount Int        @default(0)
+  createdAt  DateTime   @default(now())
+
+  @@map("scraping_logs")
+}

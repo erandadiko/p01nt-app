@@ -1,0 +1,47 @@
+{
+  "name": "p01nt",
+  "version": "1.0.0",
+  "description": "P01NT — Albanian Sports Federation Platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:setup": "npx prisma db push",
+    "db:migrate": "npx prisma migrate dev",
+    "db:generate": "npx prisma generate",
+    "db:studio": "npx prisma studio",
+    "scrape": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' src/scrapers/scrape.ts"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@prisma/client": "^5.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "framer-motion": "^11.0.3",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "react-toastify": "^10.0.4",
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.52",
+    "@types/react-dom": "^18.2.18",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "typescript": "^5.3.3",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.33",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "prisma": "^5.9.0",
+    "ts-node": "^10.9.2"
+  }
+}
