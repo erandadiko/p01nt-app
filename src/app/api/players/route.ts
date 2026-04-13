@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/db';
-import { Sport } from '@prisma/client';
+import { Prisma, Sport } from '@prisma/client';
 
 const VALID_GENDERS = ['MALE', 'FEMALE'] as const;
+const VALID_SPORTS = Object.values(Sport);
 
 function normalizeGender(value: unknown): 'MALE' | 'FEMALE' | null {
   if (typeof value !== 'string') {
@@ -21,6 +22,71 @@ function normalizeGender(value: unknown): 'MALE' | 'FEMALE' | null {
   }
 
   return null;
+}
+
+function parseStats(value: unknown): Prisma.InputJsonValue {
+  if (value === undefined || value === null || value === '') {
+    return {};
+  }
+
+  if (typeof value === 'string') {
+    try {
+      const parsed = JSON.parse(value) as unknown;
+      if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
+        return parsed as Prisma.InputJsonValue;
+      }
+      return {};
+    } catch {
+      return {};
+    }
+  }
+
+  if (value && typeof value === 'object' && !Array.isArray(value)) {
+    return value as Prisma.InputJsonValue;
+  }
+
+  return {};
+}
+
+async function resolveTeamId(teamId: unknown): Promise<number | null> {
+  if (teamId === undefined || teamId === null || teamId === '') {
+    return null;
+  }
+
+  const parsedTeamId =
+    typeof teamId === 'number' ? teamId : Number.parseInt(String(teamId), 10);
+  if (!Number.isFinite(parsedTeamId) || parsedTeamId <= 0) {
+    throw new Error('teamId must be a valid positive number');
+  }
+
+  const existingTeam = await prisma.team.findUnique({
+    where: { id: parsedTeamId },
+    select: { id: true },
+  });
+  if (!existingTeam) {
+    throw new Error('Invalid relation (teamId does not exist)');
+  }
+
+  return parsedTeamId;
+}
+
+function prismaErrorResponse(error: unknown) {
+  if (error instanceof Prisma.PrismaClientKnownRequestError) {
+    if (error.code === 'P2002') {
+      return NextResponse.json({ error: 'Duplicate entry' }, { status: 409 });
+    }
+    if (error.code === 'P2003') {
+      return NextResponse.json(
+        { error: 'Invalid relation (teamId does not exist)' },
+        { status: 400 }
+      );
+    }
+    if (error.code === 'P2025') {
+      return NextResponse.json({ error: 'Record not found' }, { status: 404 });
+    }
+  }
+
+  return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
 }
 
 export async function GET(request: NextRequest) {
@@ -118,13 +184,24 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
-    const { name, age, gender, sport, position, teamId, stats } = body;
+    const rawBody = (await request.json()) as Record<string, unknown>;
+    const { id: _ignoredId, name, age, gender, sport, position, teamId, stats } = rawBody;
     const normalizedGender = normalizeGender(gender);
+    const normalizedSport = typeof sport === 'string' ? sport.trim().toLowerCase() : '';
+    const normalizedStats = parseStats(stats);
 
-    if (!name || !sport) {
+    void _ignoredId;
+
+    if (typeof name !== 'string' || name.trim().length === 0 || !normalizedSport) {
       return NextResponse.json(
         { error: 'Name and sport are required' },
+        { status: 400 }
+      );
+    }
+
+    if (!VALID_SPORTS.includes(normalizedSport as Sport)) {
+      return NextResponse.json(
+        { error: `Sport must be one of: ${VALID_SPORTS.join(', ')}` },
         { status: 400 }
       );
     }
@@ -136,15 +213,25 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    let resolvedTeamId: number | null = null;
+    try {
+      resolvedTeamId = await resolveTeamId(teamId);
+    } catch (validationError) {
+      return NextResponse.json(
+        { error: validationError instanceof Error ? validationError.message : 'Invalid teamId' },
+        { status: 400 }
+      );
+    }
+
     const player = await prisma.player.create({
       data: {
-        name,
-        age,
+        name: name.trim(),
+        age: typeof age === 'number' ? age : null,
         gender: normalizedGender,
-        sport: sport as Sport,
-        position,
-        teamId,
-        stats,
+        sport: normalizedSport as Sport,
+        position: typeof position === 'string' ? position : null,
+        teamId: resolvedTeamId,
+        stats: normalizedStats,
       },
       include: {
         team: true,
@@ -156,10 +243,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ player }, { status: 201 });
   } catch (error) {
     console.error('Create player error:', error);
-    return NextResponse.json(
-      { error: 'Internal server error' },
-      { status: 500 }
-    );
+    return prismaErrorResponse(error);
   }
 }
 
@@ -199,9 +283,6 @@ export async function PATCH(request: NextRequest) {
     return NextResponse.json({ player });
   } catch (error) {
     console.error('Update player error:', error);
-    return NextResponse.json(
-      { error: 'Internal server error' },
-      { status: 500 }
-    );
+    return prismaErrorResponse(error);
   }
 }
