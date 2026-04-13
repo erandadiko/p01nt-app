@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # P01NT - Albanian Sports Federation Platform
 
 ![P01NT Logo](https://img.shields.io/badge/P01NT-Sports-d53240?style=for-the-badge)
@@ -189,3 +190,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ---
 
 Built with ❤️ for Albanian sports
+
