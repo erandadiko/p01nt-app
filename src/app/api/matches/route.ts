@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/db';
-import { Federation } from '@prisma/client';
 
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const federation = searchParams.get('federation') as Federation | null;
+    const federation = searchParams.get('federation');
     const status = searchParams.get('status');
     const upcoming = searchParams.get('upcoming') === 'true';
     const limit = parseInt(searchParams.get('limit') || '20');
@@ -84,7 +83,7 @@ export async function POST(request: NextRequest) {
         team1Id,
         team2Id,
         date: new Date(date),
-        federation: federation as Federation,
+        federation,
         venue,
         status: 'scheduled',
       },

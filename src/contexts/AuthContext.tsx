@@ -1,6 +1,7 @@
 'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface User {
   id: number;
@@ -12,8 +13,7 @@ interface User {
 interface AuthContextType {
   user: User | null;
   token: string | null;
-  login: (email: string, password: string, role?: string) => Promise<void>;
-  register: (name: string, email: string, password: string, role: string) => Promise<void>;
+  login: (email: string, password: string) => Promise<{ user: User; teamId: number; teamName: string }>;
   logout: () => void;
   isLoading: boolean;
 }
@@ -21,6 +21,7 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
+  const router = useRouter();
   const [user, setUser] = useState<User | null>(null);
   const [token, setToken] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -37,11 +38,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  const login = async (email: string, password: string, role?: string) => {
-    const response = await fetch('/api/auth/login', {
+  const login = async (
+    email: string,
+    password: string
+  ): Promise<{ user: User; teamId: number; teamName: string }> => {
+    const response = await fetch('/api/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, password, role }),
+      body: JSON.stringify({ email, password }),
     });
 
     const data = await response.json();
@@ -54,36 +58,23 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setToken(data.token);
     localStorage.setItem('p01nt_token', data.token);
     localStorage.setItem('p01nt_user', JSON.stringify(data.user));
-  };
-
-  const register = async (name: string, email: string, password: string, role: string) => {
-    const response = await fetch('/api/auth/register', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, password, role }),
-    });
-
-    const data = await response.json();
-
-    if (!response.ok) {
-      throw new Error(data.error || 'Registration failed');
-    }
-
-    setUser(data.user);
-    setToken(data.token);
-    localStorage.setItem('p01nt_token', data.token);
-    localStorage.setItem('p01nt_user', JSON.stringify(data.user));
+    return {
+      user: data.user,
+      teamId: data.teamId,
+      teamName: data.teamName,
+    };
   };
 
   const logout = () => {
-    setUser(null);
-    setToken(null);
     localStorage.removeItem('p01nt_token');
     localStorage.removeItem('p01nt_user');
+    setUser(null);
+    setToken(null);
+    router.push('/');
   };
 
   return (
-    <AuthContext.Provider value={{ user, token, login, register, logout, isLoading }}>
+    <AuthContext.Provider value={{ user, token, login, logout, isLoading }}>
       {children}
     </AuthContext.Provider>
   );

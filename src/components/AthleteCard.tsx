@@ -11,6 +11,7 @@ interface AthleteCardProps {
   position?: string;
   teamName?: string;
   age?: number;
+  gender?: string;
   imageUrl?: string;
   stats?: Record<string, unknown>;
 }
@@ -22,6 +23,7 @@ export default function AthleteCard({
   position,
   teamName,
   age,
+  gender,
   imageUrl,
   stats,
 }: AthleteCardProps) {
@@ -68,6 +70,9 @@ export default function AthleteCard({
               </div>
               {teamName && (
                 <p className="text-sm text-grayish-blue mt-1 truncate">{teamName}</p>
+              )}
+              {gender && (
+                <p className="text-sm text-grayish-blue mt-1">Gender: {gender}</p>
               )}
             </div>
 

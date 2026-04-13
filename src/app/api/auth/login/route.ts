@@ -34,12 +34,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // If role is specified, verify it matches the user's role
+    // Role verification is optional - if specified, check it matches
+    // This allows flexibility for admin purposes while still redirecting to correct dashboard
     if (role && user.role !== role) {
-      return NextResponse.json(
-        { error: 'Role mismatch' },
-        { status: 403 }
-      );
+      // Don't block login, just log it - the frontend will use the actual role
+      console.log(`Login role mismatch: requested ${role}, actual ${user.role}`);
     }
 
     const token = generateToken({

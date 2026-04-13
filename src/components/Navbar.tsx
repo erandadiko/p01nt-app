@@ -70,14 +70,17 @@ export default function Navbar() {
               </AnimatePresence>
             </div>
 
-            <Link href="/news" className="text-white hover:text-primary-red transition-colors">
-              News
+            <Link href="/teams" className="text-white hover:text-primary-red transition-colors">
+              Teams
+            </Link>
+            <Link href="/athletes" className="text-white hover:text-primary-red transition-colors">
+              Players
             </Link>
             <Link href="/matches" className="text-white hover:text-primary-red transition-colors">
               Matches
             </Link>
-            <Link href="/athletes" className="text-white hover:text-primary-red transition-colors">
-              Athletes
+            <Link href="/news" className="text-white hover:text-primary-red transition-colors">
+              News
             </Link>
           </div>
 
@@ -86,7 +89,7 @@ export default function Navbar() {
             {user ? (
               <>
                 <Link
-                  href={`/dashboard/${user.role}`}
+                  href="/dashboard/trainer"
                   className="text-white hover:text-primary-red transition-colors"
                 >
                   Dashboard
@@ -105,12 +108,6 @@ export default function Navbar() {
                   className="px-4 py-2 text-white hover:text-primary-red transition-colors"
                 >
                   Login
-                </Link>
-                <Link
-                  href="/register"
-                  className="px-4 py-2 bg-primary-red text-white rounded-lg hover:bg-opacity-90 transition-colors"
-                >
-                  Register
                 </Link>
               </>
             )}
@@ -155,21 +152,24 @@ export default function Navbar() {
                   {sport.name}
                 </Link>
               ))}
-              <Link href="/news" className="block text-white hover:text-primary-red" onClick={() => setIsMenuOpen(false)}>
-                News
+              <Link href="/teams" className="block text-white hover:text-primary-red" onClick={() => setIsMenuOpen(false)}>
+                Teams
+              </Link>
+              <Link href="/athletes" className="block text-white hover:text-primary-red" onClick={() => setIsMenuOpen(false)}>
+                Players
               </Link>
               <Link href="/matches" className="block text-white hover:text-primary-red" onClick={() => setIsMenuOpen(false)}>
                 Matches
               </Link>
-              <Link href="/athletes" className="block text-white hover:text-primary-red" onClick={() => setIsMenuOpen(false)}>
-                Athletes
+              <Link href="/news" className="block text-white hover:text-primary-red" onClick={() => setIsMenuOpen(false)}>
+                News
               </Link>
               
               <div className="pt-4 border-t border-grayish-blue space-y-3">
                 {user ? (
                   <>
                     <Link
-                      href={`/dashboard/${user.role}`}
+                      href="/dashboard/trainer"
                       className="block text-white hover:text-primary-red"
                       onClick={() => setIsMenuOpen(false)}
                     >
@@ -186,9 +186,6 @@ export default function Navbar() {
                   <>
                     <Link href="/login" className="block text-white hover:text-primary-red" onClick={() => setIsMenuOpen(false)}>
                       Login
-                    </Link>
-                    <Link href="/register" className="block text-primary-red font-medium" onClick={() => setIsMenuOpen(false)}>
-                      Register
                     </Link>
                   </>
                 )}

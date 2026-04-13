@@ -23,13 +23,6 @@ enum Sport {
   taekwondo
 }
 
-enum Federation {
-  FSHF
-  FSHB
-  FSHV
-  ATF
-}
-
 model User {
   id        Int      @id @default(autoincrement())
   name      String
@@ -40,8 +33,8 @@ model User {
   updatedAt DateTime @updatedAt
 
   // Relations
-  player  Player?
-  trainer Trainer?
+  player       Player?
+  trainedTeam  Team?        @relation("TeamTrainer")
 
   @@map("users")
 }
@@ -67,37 +60,33 @@ model Player {
   @@map("players")
 }
 
-model Trainer {
+model Federation {
   id           Int      @id @default(autoincrement())
-  name         String
+  name         String   @unique
   sport        Sport
-  teamsManaged Json?
-  imageUrl     String?
+  teams        Team[]
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 
-  // Relations
-  teams  Team[]
-  userId Int?   @unique
-  user   User?  @relation(fields: [userId], references: [id])
-
-  @@map("trainers")
+  @@map("federations")
 }
 
 model Team {
-  id         Int        @id @default(autoincrement())
-  name       String
-  sport      Sport
-  federation Federation
-  logoUrl    String?
-  stats      Json?
-  createdAt  DateTime   @default(now())
-  updatedAt  DateTime   @updatedAt
+  id           Int        @id @default(autoincrement())
+  name         String
+  sport        Sport
+  gender       String
+  federationId Int
+  trainerId    Int        @unique
+  logoUrl      String?
+  stats        Json?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
 
   // Relations
   players      Player[]
-  trainerId    Int?
-  trainer      Trainer?  @relation(fields: [trainerId], references: [id])
+  federation   Federation @relation(fields: [federationId], references: [id])
+  trainer      User       @relation("TeamTrainer", fields: [trainerId], references: [id])
   homeMatches  Match[]   @relation("HomeTeam")
   awayMatches  Match[]   @relation("AwayTeam")
 
@@ -110,7 +99,7 @@ model Match {
   score      String?
   status     String     @default("scheduled") // scheduled, live, completed
   venue      String?
-  federation Federation
+  federation String
   createdAt  DateTime   @default(now())
   updatedAt  DateTime   @updatedAt
 
@@ -130,7 +119,7 @@ model News {
   content     String?
   imageUrl    String?
   link        String?
-  federation  Federation
+  federation  String
   date        DateTime   @default(now())
   createdAt   DateTime   @default(now())
   updatedAt   DateTime   @updatedAt
@@ -140,7 +129,7 @@ model News {
 
 model ScrapingLog {
   id         Int        @id @default(autoincrement())
-  federation Federation
+  federation String
   status     String     // success, failed
   message    String?
   itemsCount Int        @default(0)

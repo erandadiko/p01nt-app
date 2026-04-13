@@ -7,7 +7,7 @@ A centralized hub for Albanian sports federations. Stay updated with the latest 
 ## 🏆 Features
 
 - **Multi-Federation Support**: FSHF (Football), FSHB (Basketball), FSHV (Volleyball), ATF (Taekwondo)
-- **Role-Based Access**: Trainers, Players, and Sport Lovers with different permissions
+- **Trainer-Only Login**: Secure login for seeded federation coaches
 - **Real-Time Updates**: Live match scores and news feeds
 - **Responsive Design**: Mobile-first approach with modern UI
 - **Data Scraping**: Automated data collection from federation websites
@@ -57,6 +57,9 @@ A centralized hub for Albanian sports federations. Stay updated with the latest 
 
    # Generate Prisma client
    npx prisma generate
+
+   # Seed 27 real Albanian federation coaches
+   npm run db:seed
    ```
 
 5. **Start the development server**
@@ -79,7 +82,6 @@ p01nt/
 │   │   ├── dashboard/     # Dashboard pages
 │   │   ├── federation/    # Federation pages
 │   │   ├── login/         # Auth pages
-│   │   └── register/
 │   ├── components/        # React components
 │   ├── contexts/          # React contexts
 │   ├── data/              # Static data files
@@ -99,11 +101,43 @@ p01nt/
 | White | `#ffffff` | Backgrounds |
 | Light Gray | `#f5f7fa` | Page backgrounds |
 
-## 👥 User Roles
+## 👥 Access Model
 
-1. **Trainer** - Manage teams and players
-2. **Player** - View personal stats and profile
-3. **Sport Lover** - Browse news, matches, and athletes
+- **Trainer only** login is enabled via `/api/login`
+- **Registration disabled** (`/register` returns 404)
+- Successful login redirects to `/dashboard/team/:teamId`
+
+## 👨‍🏫 Seeded Coach Credentials (27)
+
+| Federation | Coach | Email | Password | Team | Gender |
+|----------|-------|-------|----------|------|--------|
+| FSHF Football | Sylvio Mendes Campos Junior | sylvio@fshf.al | Kombetarja2024 | Kombëtarja | male |
+| FSHF Football | Alban Bushi | alban@fshf.al | U212024Bushi | U21 | male |
+| FSHF Football | Edi Martini | edi@fshf.al | Vllaznia2024 | KF Vllaznia | male |
+| FSHF Football | Edlir Tetova | edlir@fshf.al | Egnatia2024 | KF Egnatia | male |
+| FSHF Football | Ivan Gvozdenović | ivan@fshf.al | Elbasani2024 | AF Elbasani | male |
+| FSHF Football | Oltijon Kernaja | oltijon@fshf.al | Partizani2024 | KF Partizani | male |
+| FSHF Football | Ilir Dana | ilir@fshf.al | Dinamo2024 | FK Dinamo City | male |
+| FSHF Football | Orges Shehi | orges@fshf.al | Tirana2024 | KF Tirana | male |
+| FSHF Football | Enkeleid Dobi | enkeleid@fshf.al | Teuta2024 | KF Teuta | male |
+| FSHF Football | Armir Grima | armir@fshf.al | FemraKomb2024 | Kombëtarja | female |
+| FSHF Football | Daniela Kodra | daniela@fshf.al | U19Femra2024 | U19 | female |
+| FSHB Basketball | Maris Mahmuti | maris@fshb.al | TiranaBasket2024 | KB Tirana | male |
+| FSHB Basketball | Roni Gjecaj | roni@fshb.al | VllazniaBasket2024 | KB Vllaznia | male |
+| FSHB Basketball | Besim Dervishaj | besim@fshb.al | TeutaBasket2024 | KB Teuta | male |
+| FSHB Basketball | Artur Kasaj | artur@fshb.al | Apolonia2024 | KB Apolonia | male |
+| FSHB Basketball | Olsi Muca | olsi@fshb.al | TiranaFemra2024 | KB Tirana (femra) | female |
+| FSHB Basketball | Valbona Sako | valbona@fshb.al | Flamurtari2024 | Flamurtari Basket (femra) | female |
+| FSHB Basketball | Ingrit Kraja | ingrit@fshb.al | VllazniaFemra2024 | Vllaznia Basket (femra) | female |
+| FSHV Volleyball | Arben Sako | arben@fshv.al | Kombetare2024 | Kombëtare KV Tirana | male |
+| FSHV Volleyball | Ylli Tomori | ylli@fshv.al | PartizaniVoll2024 | KV Partizani | male |
+| FSHV Volleyball | Artan Kalaja | artan@fshv.al | VllazniaVoll2024 | KV Vllaznia | male |
+| FSHV Volleyball | Parit Uruci | parit@fshv.al | Erzeni2024 | KV Erzeni | male |
+| FSHV Volleyball | Adrian Gorenca | adrian@fshv.al | FemraKombVoll2024 | Kombëtare KV Tirana (femra) | female |
+| FSHV Volleyball | Andi Lundra | andi@fshv.al | PartizaniFemra2024 | KV Partizani (femra) | female |
+| FSHV Volleyball | Erjols Haxhillari | erjols@fshv.al | Skenderbeu2024 | KV Skënderbeu (femra) | female |
+| FSHV Volleyball | Besnik Lisha | besnik@fshv.al | Pogradec2024 | KV Pogradeci (femra) | female |
+| FSHTV Taekwondo | Arjola Kasaj | arjola@fshtv.al | Taekwondo2024 | Tirana Taekwondo Club | female |
 
 ## 🔌 API Endpoints
 

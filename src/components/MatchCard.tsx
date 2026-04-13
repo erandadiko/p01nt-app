@@ -5,8 +5,8 @@ import Card from './Card';
 
 interface MatchCardProps {
   id: string | number;
-  team1: { name: string; logoUrl?: string };
-  team2: { name: string; logoUrl?: string };
+  team1: { name: string; logoUrl?: string | null };
+  team2: { name: string; logoUrl?: string | null };
   date: string;
   score?: string;
   status: 'scheduled' | 'live' | 'completed';

@@ -31,7 +31,7 @@ export async function GET(request: NextRequest) {
         role: true,
         createdAt: true,
         player: true,
-        trainer: true,
+        trainedTeam: true,
       },
     });
 

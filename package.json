@@ -4,44 +4,49 @@
   "description": "P01NT — Albanian Sports Federation Platform",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack --hostname 127.0.0.1",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint",
     "db:setup": "npx prisma db push",
     "db:migrate": "npx prisma migrate dev",
     "db:generate": "npx prisma generate",
     "db:studio": "npx prisma studio",
-    "scrape": "npx ts-node --compiler-options '{\"module\":\"CommonJS\"}' src/scrapers/scrape.ts"
+    "db:seed": "npx prisma db seed"
   },
   "dependencies": {
-    "next": "^14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "@prisma/client": "^5.9.0",
-    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.6.7",
+    "bcrypt": "^6.0.0",
     "bcryptjs": "^2.4.3",
     "chart.js": "^4.4.1",
-    "react-chartjs-2": "^5.2.0",
-    "framer-motion": "^11.0.3",
-    "axios": "^1.6.7",
     "cheerio": "^1.0.0-rc.12",
-    "react-toastify": "^10.0.4",
-    "clsx": "^2.1.0"
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^16.2.1",
+    "react": "^19.2.4",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^19.2.4",
+    "react-toastify": "^10.0.4"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16",
-    "@types/react": "^18.2.52",
-    "@types/react-dom": "^18.2.18",
+    "@types/bcrypt": "^6.0.0",
     "@types/bcryptjs": "^2.4.6",
     "@types/jsonwebtoken": "^9.0.5",
-    "typescript": "^5.3.3",
-    "tailwindcss": "^3.4.1",
-    "postcss": "^8.4.33",
+    "@types/node": "20.19.37",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.17",
-    "eslint": "^8.56.0",
-    "eslint-config-next": "^14.1.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.3",
+    "postcss": "^8.4.33",
     "prisma": "^5.9.0",
-    "ts-node": "^10.9.2"
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "5.9.3"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }

@@ -6,9 +6,10 @@ interface CardProps {
   className?: string;
   hover?: boolean;
   padding?: 'none' | 'sm' | 'md' | 'lg';
+  onClick?: () => void;
 }
 
-export default function Card({ children, className, hover = true, padding = 'md' }: CardProps) {
+export default function Card({ children, className, hover = true, padding = 'md', onClick }: CardProps) {
   const paddingStyles = {
     none: '',
     sm: 'p-3',
@@ -18,6 +19,7 @@ export default function Card({ children, className, hover = true, padding = 'md'
 
   return (
     <div
+      onClick={onClick}
       className={clsx(
         'bg-white rounded-xl shadow-card',
         hover && 'hover:shadow-card-hover transition-shadow duration-300',

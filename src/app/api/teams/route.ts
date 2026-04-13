@@ -1,19 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/db';
-import { Federation, Sport } from '@prisma/client';
+import { Sport } from '@prisma/client';
 
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const federation = searchParams.get('federation') as Federation | null;
+    const federationId = searchParams.get('federationId');
     const sport = searchParams.get('sport') as Sport | null;
     const limit = parseInt(searchParams.get('limit') || '50');
     const offset = parseInt(searchParams.get('offset') || '0');
 
     const where: Record<string, unknown> = {};
     
-    if (federation) {
-      where.federation = federation;
+    if (federationId) {
+      where.federationId = parseInt(federationId, 10);
     }
     if (sport) {
       where.sport = sport;
@@ -34,6 +34,13 @@ export async function GET(request: NextRequest) {
             select: {
               id: true,
               name: true,
+            },
+          },
+          federation: {
+            select: {
+              id: true,
+              name: true,
+              sport: true,
             },
           },
           _count: {
@@ -68,11 +75,11 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, sport, federation, logoUrl } = body;
+    const { name, sport, federationId, trainerId, gender, logoUrl } = body;
 
-    if (!name || !sport || !federation) {
+    if (!name || !sport || !federationId || !trainerId || !gender) {
       return NextResponse.json(
-        { error: 'Name, sport, and federation are required' },
+        { error: 'Name, sport, federationId, trainerId, and gender are required' },
         { status: 400 }
       );
     }
@@ -81,7 +88,9 @@ export async function POST(request: NextRequest) {
       data: {
         name,
         sport: sport as Sport,
-        federation: federation as Federation,
+        federationId,
+        trainerId,
+        gender,
         logoUrl,
       },
     });

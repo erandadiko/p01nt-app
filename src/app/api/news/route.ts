@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/db';
-import { Federation } from '@prisma/client';
 
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const federation = searchParams.get('federation') as Federation | null;
+    const federation = searchParams.get('federation');
     const limit = parseInt(searchParams.get('limit') || '10');
     const offset = parseInt(searchParams.get('offset') || '0');
 
@@ -62,7 +61,7 @@ export async function POST(request: NextRequest) {
         content,
         imageUrl,
         link,
-        federation: federation as Federation,
+        federation,
       },
     });
 

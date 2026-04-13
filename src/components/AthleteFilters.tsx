@@ -12,6 +12,7 @@ interface FilterValues {
   sport: string | null;
   federation: string | null;
   position: string | null;
+  gender: string | null;
 }
 
 const sports = [
@@ -22,20 +23,13 @@ const sports = [
   { id: 'taekwondo', name: 'Taekwondo' },
 ];
 
-const federations = [
-  { id: '', name: 'All Federations' },
-  { id: 'FSHF', name: 'FSHF - Football' },
-  { id: 'FSHB', name: 'FSHB - Basketball' },
-  { id: 'FSHV', name: 'FSHV - Volleyball' },
-  { id: 'ATF', name: 'ATF - Taekwondo' },
-];
-
 export default function AthleteFilters({ onFilterChange }: AthleteFiltersProps) {
   const [filters, setFilters] = useState<FilterValues>({
     search: '',
     sport: null,
     federation: null,
     position: null,
+    gender: null,
   });
 
   const handleChange = (key: keyof FilterValues, value: string) => {
@@ -53,6 +47,7 @@ export default function AthleteFilters({ onFilterChange }: AthleteFiltersProps) 
       sport: null,
       federation: null,
       position: null,
+      gender: null,
     };
     setFilters(resetFilters);
     onFilterChange(resetFilters);
@@ -67,7 +62,7 @@ export default function AthleteFilters({ onFilterChange }: AthleteFiltersProps) 
             <input
               type="text"
               placeholder="Search athletes..."
-              value={filters.search}
+              value={filters.search ?? ''}
               onChange={(e) => handleChange('search', e.target.value)}
               className="w-full px-4 py-2 pl-10 border border-card-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-red focus:border-transparent"
             />
@@ -102,24 +97,23 @@ export default function AthleteFilters({ onFilterChange }: AthleteFiltersProps) 
           </select>
         </div>
 
-        {/* Federation Filter */}
+        {/* Gender Filter */}
         <div>
           <select
-            value={filters.federation || ''}
-            onChange={(e) => handleChange('federation', e.target.value)}
+            value={filters.gender || ''}
+            onChange={(e) => handleChange('gender', e.target.value)}
             className="w-full px-4 py-2 border border-card-border rounded-lg bg-white text-dark-blue focus:outline-none focus:ring-2 focus:ring-primary-red focus:border-transparent"
           >
-            {federations.map((fed) => (
-              <option key={fed.id} value={fed.id}>
-                {fed.name}
-              </option>
-            ))}
+            <option value="">All Genders</option>
+            <option value="MALE">Male</option>
+            <option value="FEMALE">Female</option>
           </select>
         </div>
+
       </div>
 
       {/* Active Filters & Reset */}
-      {(filters.search || filters.sport || filters.federation) && (
+      {(filters.search || filters.sport || filters.federation || filters.gender) && (
         <div className="mt-4 flex items-center justify-between">
           <div className="flex flex-wrap gap-2">
             {filters.search && (
@@ -135,6 +129,11 @@ export default function AthleteFilters({ onFilterChange }: AthleteFiltersProps) 
             {filters.federation && (
               <span className="px-3 py-1 bg-light-gray rounded-full text-sm text-dark-blue">
                 Federation: {filters.federation}
+              </span>
+            )}
+            {filters.gender && (
+              <span className="px-3 py-1 bg-light-gray rounded-full text-sm text-dark-blue">
+                Gender: {filters.gender === 'MALE' ? 'Male' : 'Female'}
               </span>
             )}
           </div>

@@ -3,8 +3,12 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import AlbanianFlagBackground from './AlbanianFlagBackground';
+import { useAuth } from '@/contexts/AuthContext';
 
 export default function HeroSection() {
+  const { user, isLoading } = useAuth();
+  const isTrainerLoggedIn = Boolean(user?.role === 'trainer');
+
   return (
     <div className="relative min-h-[600px] flex items-center overflow-hidden">
       <AlbanianFlagBackground />
@@ -30,10 +34,10 @@ export default function HeroSection() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/register"
+              href={!isLoading && isTrainerLoggedIn ? '/dashboard' : '/login'}
               className="px-8 py-4 bg-primary-red text-white rounded-lg font-semibold text-lg hover:bg-opacity-90 transition-all transform hover:scale-105"
             >
-              Get Started
+              {!isLoading && isTrainerLoggedIn ? 'Go to Dashboard' : 'Trainer Sign In'}
             </Link>
             <Link
               href="/federation/fshf"

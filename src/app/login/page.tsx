@@ -1,17 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import Button from '@/components/Button';
-import RoleSelector from '@/components/RoleSelector';
 import Card from '@/components/Card';
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [role, setRole] = useState('sportlover');
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const { login } = useAuth();
@@ -23,8 +20,8 @@ export default function LoginPage() {
     setIsLoading(true);
 
     try {
-      await login(email, password, role);
-      router.push(`/dashboard/${role}`);
+      const loginData = await login(email, password);
+      router.push(`/dashboard/team/${loginData.teamId}`);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Login failed');
     } finally {
@@ -78,21 +75,11 @@ export default function LoginPage() {
               />
             </div>
 
-            <RoleSelector selectedRole={role} onRoleChange={setRole} />
-
             <Button type="submit" fullWidth loading={isLoading}>
               Sign In
             </Button>
           </form>
 
-          <div className="mt-6 text-center">
-            <p className="text-grayish-blue">
-              Don't have an account?{' '}
-              <Link href="/register" className="text-primary-red hover:underline font-medium">
-                Sign up
-              </Link>
-            </p>
-          </div>
         </Card>
       </div>
     </div>
