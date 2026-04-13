@@ -5,15 +5,39 @@ export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
     const federation = searchParams.get('federation');
+    const federationId = searchParams.get('federationId');
     const status = searchParams.get('status');
     const upcoming = searchParams.get('upcoming') === 'true';
-    const limit = parseInt(searchParams.get('limit') || '20');
-    const offset = parseInt(searchParams.get('offset') || '0');
+    const fetchAll = searchParams.get('fetchAll') === 'true';
+    const rawLimit = searchParams.get('limit');
+    const rawOffset = searchParams.get('offset');
+    const limit = rawLimit ? Number.parseInt(rawLimit, 10) : 20;
+    const offset = rawOffset ? Number.parseInt(rawOffset, 10) : 0;
 
     const where: Record<string, unknown> = {};
+    const federationFilters: Array<Record<string, unknown>> = [];
     
     if (federation) {
-      where.federation = federation;
+      federationFilters.push({
+        federation: {
+          equals: federation,
+          mode: 'insensitive',
+        },
+      });
+    }
+    if (federationId) {
+      const parsedFederationId = Number.parseInt(federationId, 10);
+      if (Number.isFinite(parsedFederationId)) {
+        federationFilters.push({
+          team1: { federationId: parsedFederationId },
+        });
+        federationFilters.push({
+          team2: { federationId: parsedFederationId },
+        });
+      }
+    }
+    if (federationFilters.length > 0) {
+      where.OR = federationFilters;
     }
     if (status) {
       where.status = status;
@@ -41,8 +65,12 @@ export async function GET(request: NextRequest) {
             },
           },
         },
-        take: limit,
-        skip: offset,
+        ...(fetchAll
+          ? {}
+          : {
+              take: Number.isFinite(limit) && limit > 0 ? limit : 20,
+              skip: Number.isFinite(offset) && offset >= 0 ? offset : 0,
+            }),
         orderBy: { date: upcoming ? 'asc' : 'desc' },
       }),
       prisma.match.count({ where }),
@@ -52,8 +80,8 @@ export async function GET(request: NextRequest) {
       matches,
       pagination: {
         total,
-        limit,
-        offset,
+        limit: fetchAll ? total : Number.isFinite(limit) && limit > 0 ? limit : 20,
+        offset: fetchAll ? 0 : Number.isFinite(offset) && offset >= 0 ? offset : 0,
         hasMore: offset + matches.length < total,
       },
     });

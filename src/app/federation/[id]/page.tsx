@@ -7,7 +7,7 @@ import MatchCard from '@/components/MatchCard';
 import Card from '@/components/Card';
 import { getFederationById } from '@/data/federations';
 import prisma from '@/lib/db';
-import { Federation, Sport } from '@prisma/client';
+import { Sport } from '@prisma/client';
 
 const sportIcons: Record<string, string> = {
   football: '⚽',
@@ -16,11 +16,11 @@ const sportIcons: Record<string, string> = {
   taekwondo: '🥋',
 };
 
-const sportFromFederation: Record<string, string> = {
-  FSHF: 'football',
-  FSHB: 'basketball',
-  FSHV: 'volleyball',
-  ATF: 'taekwondo',
+const federationAliases: Record<string, string[]> = {
+  FSHF: ['FSHF', 'football'],
+  FSHB: ['FSHB', 'basketball'],
+  FSHV: ['FSHV', 'volleyball'],
+  ATF: ['ATF', 'taekwondo'],
 };
 
 async function getFederationData(federationId: string) {
@@ -37,6 +37,10 @@ async function getFederationData(federationId: string) {
   }
   
   try {
+    const federationNames = federationAliases[upperFedId.name] ?? [upperFedId.name];
+    const federationNameFilters = federationNames.map((name) => ({
+      federation: { equals: name, mode: 'insensitive' as const },
+    }));
     const [teams, players, matches, news] = await Promise.all([
       prisma.team.findMany({
         where: { federationId: upperFedId.id },
@@ -55,7 +59,13 @@ async function getFederationData(federationId: string) {
         orderBy: { name: 'asc' },
       }),
       prisma.match.findMany({
-        where: { federation: upperFedId.name },
+        where: {
+          OR: [
+            ...federationNameFilters,
+            { team1: { federationId: upperFedId.id } },
+            { team2: { federationId: upperFedId.id } },
+          ],
+        },
         include: {
           team1: { select: { id: true, name: true, logoUrl: true } },
           team2: { select: { id: true, name: true, logoUrl: true } },
@@ -64,7 +74,9 @@ async function getFederationData(federationId: string) {
         orderBy: { date: 'desc' },
       }),
       prisma.news.findMany({
-        where: { federation: upperFedId.name },
+        where: {
+          OR: federationNameFilters,
+        },
         take: 6,
         orderBy: { date: 'desc' },
       }),

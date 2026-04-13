@@ -30,8 +30,11 @@ export async function GET(request: NextRequest) {
     const teamId = searchParams.get('teamId');
     const search = searchParams.get('search');
     const gender = normalizeGender(searchParams.get('gender'));
-    const limit = parseInt(searchParams.get('limit') || '20');
-    const offset = parseInt(searchParams.get('offset') || '0');
+    const rawLimit = searchParams.get('limit');
+    const rawOffset = searchParams.get('offset');
+    const fetchAll = searchParams.get('fetchAll') === 'true';
+    const limit = rawLimit ? Number.parseInt(rawLimit, 10) : 20;
+    const offset = rawOffset ? Number.parseInt(rawOffset, 10) : 0;
 
     const where: Record<string, unknown> = {};
     
@@ -68,8 +71,12 @@ export async function GET(request: NextRequest) {
             },
           },
         },
-        take: limit,
-        skip: offset,
+        ...(fetchAll
+          ? {}
+          : {
+              take: Number.isFinite(limit) && limit > 0 ? limit : 20,
+              skip: Number.isFinite(offset) && offset >= 0 ? offset : 0,
+            }),
         orderBy: { name: 'asc' },
       }),
       prisma.player.count({ where }),
@@ -95,8 +102,8 @@ export async function GET(request: NextRequest) {
       players: normalizedPlayers,
       pagination: {
         total,
-        limit,
-        offset,
+        limit: fetchAll ? total : Number.isFinite(limit) && limit > 0 ? limit : 20,
+        offset: fetchAll ? 0 : Number.isFinite(offset) && offset >= 0 ? offset : 0,
         hasMore: offset + normalizedPlayers.length < total,
       },
     });

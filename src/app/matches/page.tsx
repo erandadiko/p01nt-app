@@ -47,41 +47,42 @@ const toMatches = (items: typeof fallbackMatches): Match[] =>
 
 export default function MatchesPage() {
   const [matches, setMatches] = useState<Match[]>([]);
-  const [filteredMatches, setFilteredMatches] = useState<Match[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedFederation, setSelectedFederation] = useState<string | null>(null);
   const [statusFilter, setStatusFilter] = useState<string>('all');
+  const [filteredMatches, setFilteredMatches] = useState<Match[]>([]);
+
+  const federationIdMap: Record<string, number> = {
+    FSHF: 1,
+    FSHB: 2,
+    FSHV: 3,
+    ATF: 4,
+  };
 
   useEffect(() => {
-    fetchMatches();
-  }, []);
-
-  useEffect(() => {
-    let filtered = [...matches];
-
-    if (selectedFederation) {
-      filtered = filtered.filter(m => m.federation === selectedFederation);
-    }
-
-    if (statusFilter !== 'all') {
-      filtered = filtered.filter(m => m.status === statusFilter);
-    }
-
-    // Sort: upcoming first, then by date
-    filtered.sort((a, b) => {
-      if (a.status === 'scheduled' && b.status !== 'scheduled') return -1;
-      if (b.status === 'scheduled' && a.status !== 'scheduled') return 1;
-      return new Date(a.date).getTime() - new Date(b.date).getTime();
-    });
-
-    setFilteredMatches(filtered);
-  }, [matches, selectedFederation, statusFilter]);
+    void fetchMatches();
+  }, [selectedFederation, statusFilter]);
 
   const fetchMatches = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch('/api/matches?limit=50');
+      setError(null);
+
+      const params = new URLSearchParams();
+      params.set('fetchAll', 'true');
+      if (selectedFederation) {
+        params.set('federation', selectedFederation);
+        const mappedId = federationIdMap[selectedFederation];
+        if (mappedId) {
+          params.set('federationId', String(mappedId));
+        }
+      }
+      if (statusFilter !== 'all') {
+        params.set('status', statusFilter);
+      }
+
+      const response = await fetch(`/api/matches?${params.toString()}`);
       const data = await response.json();
       
       if (!response.ok) {
@@ -89,10 +90,16 @@ export default function MatchesPage() {
       }
 
       const apiMatches = data.matches || [];
-      setMatches(apiMatches.length > 0 ? apiMatches : toMatches(fallbackMatches));
+      const resolvedMatches = apiMatches.length > 0 ? apiMatches : toMatches(fallbackMatches);
+      setMatches(resolvedMatches);
+      setFilteredMatches(resolvedMatches);
     } catch (err) {
       console.error('Falling back to local matches data:', err);
-      setMatches(toMatches(fallbackMatches));
+      const fallback = toMatches(fallbackMatches)
+        .filter((match) => (selectedFederation ? match.federation === selectedFederation : true))
+        .filter((match) => (statusFilter !== 'all' ? match.status === statusFilter : true));
+      setMatches(fallback);
+      setFilteredMatches(fallback);
       setError(null);
     } finally {
       setIsLoading(false);

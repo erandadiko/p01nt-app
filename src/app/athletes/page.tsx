@@ -62,7 +62,7 @@ export default function AthletesPage() {
   const fetchAthletes = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch('/api/players?limit=100');
+      const response = await fetch('/api/players?fetchAll=true');
       const data = await response.json();
       
       if (!response.ok) {

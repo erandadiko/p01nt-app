@@ -1,0 +1,5076 @@
+{
+  "exportedAt": "2026-04-13T15:50:06.715Z",
+  "source": "local",
+  "counts": {
+    "teams": 25,
+    "players": 250,
+    "matches": 0
+  },
+  "teams": [
+    {
+      "id": 1,
+      "name": "Kombëtarja",
+      "sport": "football",
+      "gender": "male",
+      "federationId": 1,
+      "trainerId": 1,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Albania_National_Football_Team_crest.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:58.186Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 3,
+      "name": "KF Vllaznia",
+      "sport": "football",
+      "gender": "male",
+      "federationId": 1,
+      "trainerId": 3,
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SN4plhiNq4HO46Cqot1epKBcEMKcnXFF-Q&s",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:58.386Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 4,
+      "name": "KF Egnatia",
+      "sport": "football",
+      "gender": "male",
+      "federationId": 1,
+      "trainerId": 4,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Egnatia_Club_Logo.svg/960px-Egnatia_Club_Logo.svg.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:58.484Z",
+      "updatedAt": "2026-04-12T19:47:46.533Z"
+    },
+    {
+      "id": 5,
+      "name": "AF Elbasani",
+      "sport": "football",
+      "gender": "male",
+      "federationId": 1,
+      "trainerId": 5,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/Elbasani_AF_Logo.svg",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:58.583Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 6,
+      "name": "KF Partizani",
+      "sport": "football",
+      "gender": "male",
+      "federationId": 1,
+      "trainerId": 6,
+      "logoUrl": "https://logoeps.com/wp-content/uploads/2013/09/fk-partizani-vector-logo.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:58.681Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 7,
+      "name": "FK Dinamo City",
+      "sport": "football",
+      "gender": "male",
+      "federationId": 1,
+      "trainerId": 7,
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAbjTUXWLp7PbuQydj7qbZwB20SJw7gCT7MA&s",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:58.779Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 8,
+      "name": "KF Tirana",
+      "sport": "football",
+      "gender": "male",
+      "federationId": 1,
+      "trainerId": 8,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Tirana_Club_Logo.svg/960px-Tirana_Club_Logo.svg.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.027Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 9,
+      "name": "KF Teuta",
+      "sport": "football",
+      "gender": "male",
+      "federationId": 1,
+      "trainerId": 9,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/KF_TEUTA_logo.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.129Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 10,
+      "name": "Kombëtarja (femra)",
+      "sport": "football",
+      "gender": "female",
+      "federationId": 1,
+      "trainerId": 10,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Albania_National_Football_Team_crest.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.226Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 12,
+      "name": "KB Tirana",
+      "sport": "basketball",
+      "gender": "male",
+      "federationId": 2,
+      "trainerId": 12,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/KShS_Tirana.svg/1280px-KShS_Tirana.svg.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.425Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 13,
+      "name": "KB Vllaznia",
+      "sport": "basketball",
+      "gender": "male",
+      "federationId": 2,
+      "trainerId": 13,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/KB_Vllaznia.svg/960px-KB_Vllaznia.svg.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.533Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 14,
+      "name": "KB Teuta",
+      "sport": "basketball",
+      "gender": "male",
+      "federationId": 2,
+      "trainerId": 14,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/KB_Teuta_logo.svg/1280px-KB_Teuta_logo.svg.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.630Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 15,
+      "name": "KB Apolonia",
+      "sport": "basketball",
+      "gender": "male",
+      "federationId": 2,
+      "trainerId": 15,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/KShS_Apolonia.svg/250px-KShS_Apolonia.svg.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.728Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 16,
+      "name": "KB Tirana (femra)",
+      "sport": "basketball",
+      "gender": "female",
+      "federationId": 2,
+      "trainerId": 16,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/KShS_Tirana.svg/1280px-KShS_Tirana.svg.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.826Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 17,
+      "name": "Flamurtari Basket (femra)",
+      "sport": "basketball",
+      "gender": "female",
+      "federationId": 2,
+      "trainerId": 17,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/KShS_Flamurtari.svg",
+      "stats": {},
+      "createdAt": "2026-04-09T11:02:59.924Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 18,
+      "name": "Vllaznia Basket (femra)",
+      "sport": "basketball",
+      "gender": "female",
+      "federationId": 2,
+      "trainerId": 18,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/KB_Vllaznia.svg/960px-KB_Vllaznia.svg.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.025Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 19,
+      "name": "KV Tirana",
+      "sport": "volleyball",
+      "gender": "male",
+      "federationId": 3,
+      "trainerId": 19,
+      "logoUrl": "https://volleybox.net/media/upload/teams/big_1658921604gI4CL.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.123Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 20,
+      "name": "KV Partizani",
+      "sport": "volleyball",
+      "gender": "male",
+      "federationId": 3,
+      "trainerId": 20,
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRfiMNaDP5_xuFoJIQqVb7ACPDpn5zQIdyyQ&s",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.221Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 21,
+      "name": "KV Vllaznia",
+      "sport": "volleyball",
+      "gender": "male",
+      "federationId": 3,
+      "trainerId": 21,
+      "logoUrl": "https://volleybox.net/media/upload/teams/1581290412o2svE.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.320Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 22,
+      "name": "KV Erzeni",
+      "sport": "volleyball",
+      "gender": "male",
+      "federationId": 3,
+      "trainerId": 22,
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRz4255HpT0-ihRbCQYkG02YljY_tq8HBRPQ&s",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.417Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 23,
+      "name": "KV Tirana (femra)",
+      "sport": "volleyball",
+      "gender": "female",
+      "federationId": 3,
+      "trainerId": 23,
+      "logoUrl": "https://volleybox.net/media/upload/teams/big_1658921604gI4CL.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.514Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 24,
+      "name": "KV Partizani (femra)",
+      "sport": "volleyball",
+      "gender": "female",
+      "federationId": 3,
+      "trainerId": 24,
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRfiMNaDP5_xuFoJIQqVb7ACPDpn5zQIdyyQ&s",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.611Z",
+      "updatedAt": "2026-04-13T12:28:12.273Z"
+    },
+    {
+      "id": 25,
+      "name": "KV Skënderbeu (femra)",
+      "sport": "volleyball",
+      "gender": "female",
+      "federationId": 3,
+      "trainerId": 25,
+      "logoUrl": "https://volleybox.net/media/upload/teams/big_17518707576Vzo8.png",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.708Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 26,
+      "name": "KV Pogradeci (femra)",
+      "sport": "volleyball",
+      "gender": "female",
+      "federationId": 3,
+      "trainerId": 26,
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsx7ydxmpZEzB_sJChzFPTCYGtCG2-YVA-IA&s",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.805Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    },
+    {
+      "id": 27,
+      "name": "Tirana Taekwondo Club",
+      "sport": "taekwondo",
+      "gender": "female",
+      "federationId": 4,
+      "trainerId": 27,
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5JINw3ZvX9roEVFK-w4I6wFwvuaigZPeQg&s",
+      "stats": {},
+      "createdAt": "2026-04-09T11:03:00.902Z",
+      "updatedAt": "2026-04-12T20:29:35.835Z"
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Thomas Strakosha",
+      "age": 31,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 85,
+        "appearances": 30,
+        "cleanSheets": 10
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8J88HL5Z76mJOvD0tsdo13U1DEcp0A3GOvVVx0HdXXzWrmBb-3-mRLnXJpGjPEp5gRUWXaWWXie8d01wY0wCkvTo81Djxz6yYAyQ7dw&s=10",
+      "createdAt": "2026-04-09T12:29:14.937Z",
+      "updatedAt": "2026-04-13T11:16:27.696Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 2,
+      "name": "Ardian Ismajli",
+      "age": 29,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 60,
+        "clearances": 120,
+        "interceptions": 45
+      },
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/17/2026/324x324/250099056.jpg",
+      "createdAt": "2026-04-10T10:46:40.244Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 3,
+      "name": "Berat Gjimshiti",
+      "age": 33,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "goals": 2,
+        "tackles": 70,
+        "interceptions": 50
+      },
+      "imageUrl": "https://fshf.org/app/uploads/2024/06/05-1.png",
+      "createdAt": "2026-04-10T10:46:40.244Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 4,
+      "name": "Ylber Ramadani",
+      "age": 30,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defensive Midfielder",
+      "stats": {
+        "tackles": 80,
+        "interceptions": 55,
+        "passesCompleted": 1200
+      },
+      "imageUrl": "https://fshf.org/app/uploads/2024/06/07-1.png",
+      "createdAt": "2026-04-10T10:53:32.438Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 5,
+      "name": "Qazim Laci",
+      "age": 30,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Central Midfielder",
+      "stats": {
+        "goals": 5,
+        "assists": 6,
+        "passesCompleted": 900
+      },
+      "imageUrl": "https://fshf.org/app/uploads/2024/06/04-2.png",
+      "createdAt": "2026-04-10T10:53:32.438Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 6,
+      "name": "Nedim Bajrami",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Attacking Midfielder",
+      "stats": {
+        "goals": 8,
+        "assists": 7,
+        "chancesCreated": 40
+      },
+      "imageUrl": "https://fshf.org/app/uploads/2024/06/16-1.png",
+      "createdAt": "2026-04-10T10:53:32.438Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 7,
+      "name": "Kristjan Asllani",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Central Midfielder",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "passesCompleted": 1100
+      },
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/17/2026/324x324/250143669.jpg",
+      "createdAt": "2026-04-10T10:53:32.438Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 8,
+      "name": "Arber Hoxha",
+      "age": 26,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Left Winger",
+      "stats": {
+        "goals": 6,
+        "assists": 4,
+        "dribbles": 50
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6hP6gD0R_0-uwFSASMnDsx2KeylA4061lZw&s",
+      "createdAt": "2026-04-10T10:53:32.438Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 9,
+      "name": "Rey Manaj",
+      "age": 29,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 14,
+        "assists": 3,
+        "shotsOnTarget": 45
+      },
+      "imageUrl": "https://fshf.org/app/uploads/2024/06/15-1.png",
+      "createdAt": "2026-04-09T12:29:14.937Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 10,
+      "name": "Armando Broja",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 10,
+        "assists": 2,
+        "shotsOnTarget": 38
+      },
+      "imageUrl": "https://scontent.ftia5-1.fna.fbcdn.net/v/t39.30808-6/307969773_629780968636014_5940860976500405960_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=0aBrvdSCLzQQ7kNvwFlUO22&_nc_oc=Adqxt3bAdnC6q0bFFE5ZVIDiNxGDLNrHJw9dEAf8z9P6ofJDshdlECxsBSEU9WjzDfA&_nc_zt=23&_nc_ht=scontent.ftia5-1.fna&_nc_gid=vYfoUSgvszpoVECU31gQ0A&_nc_ss=7a389&oh=00_Af02v078pGkqdZ1mv87Z-u9TJ4Xgy3TaZa67WAyqaGINuQ&oe=69DEBDE6",
+      "createdAt": "2026-04-10T10:58:01.835Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 11,
+      "name": "Myrto Uzuni",
+      "age": 31,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Winger",
+      "stats": {
+        "goals": 18,
+        "assists": 6,
+        "dribbles": 60
+      },
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/17/2026/324x324/250081975.jpg",
+      "createdAt": "2026-04-10T11:02:07.672Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 12,
+      "name": "Jasir Asani",
+      "age": 30,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Right Winger",
+      "stats": {
+        "goals": 9,
+        "assists": 5,
+        "shotsOnTarget": 30
+      },
+      "imageUrl": "https://fshf.org/app/uploads/2024/06/08-2.png",
+      "createdAt": "2026-04-10T11:02:07.672Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 13,
+      "name": "Indrit Tuci",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 7,
+        "assists": 2,
+        "shotsOnTarget": 25
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/675857-1770893811.jpg?lm=1",
+      "createdAt": "2026-04-10T11:02:07.672Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 14,
+      "name": "Jose Gomes",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 12,
+        "assists": 4,
+        "appearances": 28,
+        "shotsOnTarget": 38
+      },
+      "imageUrl": "https://editorial.uefa.com/resources/0252-0cda62197f4c-64b1df01d9ac-1000/jose_gomes_portugal_.jpeg",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 5,
+      "userId": null
+    },
+    {
+      "id": 15,
+      "name": "Kristi Qose",
+      "age": 30,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Central Midfielder",
+      "stats": {
+        "goals": 5,
+        "assists": 6,
+        "appearances": 30,
+        "passesCompleted": 950
+      },
+      "imageUrl": "https://www.footballdatabase.eu/images/photos/players/a_216/216523.jpg",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 5,
+      "userId": null
+    },
+    {
+      "id": 16,
+      "name": "Cristian Dros",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defensive Midfielder",
+      "stats": {
+        "tackles": 78,
+        "appearances": 29,
+        "interceptions": 60,
+        "passesCompleted": 1000
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/343916-1712082520.png?lm=1",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 3,
+      "userId": null
+    },
+    {
+      "id": 17,
+      "name": "Bledar Lila",
+      "age": 25,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "appearances": 27,
+        "passesCompleted": 870
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/836066-1640192199.png?lm=1",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 5,
+      "userId": null
+    },
+    {
+      "id": 18,
+      "name": "Bruno Lulaj",
+      "age": 31,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 72,
+        "clearances": 125,
+        "appearances": 30,
+        "interceptions": 55
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo6oecl267oZFoCgRj5VKzFGZ4Ibm7XJpMSw&s",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 5,
+      "userId": null
+    },
+    {
+      "id": 19,
+      "name": "Emir Azemovic",
+      "age": 29,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 68,
+        "clearances": 120,
+        "appearances": 28,
+        "interceptions": 50
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/391903-1611431322.jpg?lm=1",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 5,
+      "userId": null
+    },
+    {
+      "id": 20,
+      "name": "Emiljano Musta",
+      "age": 34,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "crosses": 42,
+        "tackles": 60,
+        "appearances": 26,
+        "interceptions": 45
+      },
+      "imageUrl": "https://cdn-img.zerozero.pt/img/jogadores/new/01/82/1290182_emiljano_musta_20250522104539.png",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 5,
+      "userId": null
+    },
+    {
+      "id": 21,
+      "name": "Klevi Totoshi",
+      "age": 23,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 75,
+        "appearances": 27,
+        "cleanSheets": 8,
+        "goalsConceded": 30
+      },
+      "imageUrl": "https://cdn-img.zerozero.pt/img/jogadores/new/01/74/1290174_klevi_totoshi_20250522104402.png",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 5,
+      "userId": null
+    },
+    {
+      "id": 22,
+      "name": "Ardit Hila",
+      "age": 33,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 6,
+        "assists": 7,
+        "appearances": 31,
+        "passesCompleted": 1100
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/187397-1639683248.jpeg?lm=1",
+      "createdAt": "2026-04-10T12:04:31.183Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 5,
+      "userId": null
+    },
+    {
+      "id": 23,
+      "name": "Kastriot Selmani",
+      "age": 26,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Winger",
+      "stats": {
+        "goals": 10,
+        "assists": 3,
+        "appearances": 28,
+        "shotsOnTarget": 35
+      },
+      "imageUrl": "https://cdn.resfu.com/img_data/players/medium/386061.jpg?size=340x&lossy=1",
+      "createdAt": "2026-04-10T17:07:41.027Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 4,
+      "userId": null
+    },
+    {
+      "id": 24,
+      "name": "Serxho Ujka",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Central Midfielder",
+      "stats": {
+        "goals": 4,
+        "assists": 6,
+        "appearances": 29,
+        "passesCompleted": 920
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/597289-1705820197.jpg?lm=1",
+      "createdAt": "2026-04-10T17:07:41.027Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 4,
+      "userId": null
+    },
+    {
+      "id": 25,
+      "name": "Altin Kryeziu",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 5,
+        "assists": 5,
+        "appearances": 27,
+        "passesCompleted": 880
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/637117-1745399254.png?lm=1",
+      "createdAt": "2026-04-10T17:07:41.027Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 4,
+      "userId": null
+    },
+    {
+      "id": 26,
+      "name": "Flamur Ruci",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Attacking Midfielder",
+      "stats": {
+        "goals": 3,
+        "assists": 4,
+        "appearances": 26,
+        "passesCompleted": 860
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/834020-1761274869.jpg?lm=1",
+      "createdAt": "2026-04-10T17:07:41.027Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 4,
+      "userId": null
+    },
+    {
+      "id": 27,
+      "name": "Eljon Sota",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defensive Midfielder",
+      "stats": {
+        "tackles": 70,
+        "clearances": 110,
+        "appearances": 28,
+        "interceptions": 55
+      },
+      "imageUrl": "https://www.footballdatabase.eu/images/photos/players/a_448/448772.jpg",
+      "createdAt": "2026-04-10T17:07:41.027Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 4,
+      "userId": null
+    },
+    {
+      "id": 28,
+      "name": "Arbenit Xhemajli",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 72,
+        "clearances": 115,
+        "appearances": 29,
+        "interceptions": 58
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/354155-1690018242.PNG?lm=1",
+      "createdAt": "2026-04-10T17:07:41.027Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 4,
+      "userId": null
+    },
+    {
+      "id": 29,
+      "name": "Mario Dajsinani",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 78,
+        "appearances": 30,
+        "cleanSheets": 9,
+        "goalsConceded": 28
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/342476-1597763478.png?lm=1",
+      "createdAt": "2026-04-10T17:07:41.027Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 4,
+      "userId": null
+    },
+    {
+      "id": 30,
+      "name": "Ildi Gruda",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 8,
+        "assists": 2,
+        "appearances": 27,
+        "shotsOnTarget": 30
+      },
+      "imageUrl": "https://images.fotmob.com/image_resources/playerimages/1179624.png",
+      "createdAt": "2026-04-10T17:07:41.027Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 4,
+      "userId": null
+    },
+    {
+      "id": 31,
+      "name": "Albers Keko",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 9,
+        "assists": 3,
+        "appearances": 27,
+        "shotsOnTarget": 32
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/KEKO-600x600.jpg",
+      "createdAt": "2026-04-11T14:15:25.402Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 32,
+      "name": "Alban Hoxha",
+      "age": 38,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 90,
+        "appearances": 30,
+        "cleanSheets": 12,
+        "goalsConceded": 32
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/HOXHA-600x600.jpg",
+      "createdAt": "2026-04-11T14:15:25.402Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 33,
+      "name": "Skander Tahri",
+      "age": 21,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 55,
+        "appearances": 18,
+        "cleanSheets": 6,
+        "goalsConceded": 28
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/TAHRI-600x600.jpg",
+      "createdAt": "2026-04-11T14:15:25.402Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 34,
+      "name": "Pano Qirko",
+      "age": 26,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 70,
+        "appearances": 25,
+        "cleanSheets": 8,
+        "goalsConceded": 30
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/08/QIRKO-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 35,
+      "name": "Altin Bytyci",
+      "age": 25,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 65,
+        "clearances": 110,
+        "appearances": 28,
+        "interceptions": 50
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/BYTYCI-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 36,
+      "name": "Marcelino Preka",
+      "age": 22,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 60,
+        "clearances": 100,
+        "appearances": 26,
+        "interceptions": 45
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/PREKA-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 37,
+      "name": "Paulo Buxhelaj",
+      "age": 22,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 62,
+        "clearances": 105,
+        "appearances": 27,
+        "interceptions": 48
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/BUXHELAJ-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 38,
+      "name": "Saliou Sembene",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 70,
+        "clearances": 120,
+        "appearances": 30,
+        "interceptions": 55
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/1994/11/SALIOU-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 39,
+      "name": "Adnard Mehmeti",
+      "age": 25,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Attacking Midfielder",
+      "stats": {
+        "goals": 3,
+        "assists": 4,
+        "appearances": 26,
+        "passesCompleted": 850
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/MEHMETI-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 40,
+      "name": "Redon Ismaili",
+      "age": 23,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Central Midfielder",
+      "stats": {
+        "goals": 5,
+        "assists": 6,
+        "appearances": 29,
+        "passesCompleted": 950
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/ISMAILI-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 41,
+      "name": "Gjergji Kote",
+      "age": 21,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Left Winger",
+      "stats": {
+        "goals": 4,
+        "assists": 5,
+        "appearances": 28,
+        "passesCompleted": 900
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/KOTE-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 42,
+      "name": "Mateo Shanaj",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 2,
+        "assists": 3,
+        "appearances": 24,
+        "passesCompleted": 780
+      },
+      "imageUrl": "https://partizani.al/sq/wp-content/uploads/2023/11/SHANAJ-600x600.jpg",
+      "createdAt": "2026-04-11T14:41:00.188Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 6,
+      "userId": null
+    },
+    {
+      "id": 43,
+      "name": "Aldo Teqja",
+      "age": 30,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 78,
+        "appearances": 28,
+        "cleanSheets": 9,
+        "goalsConceded": 30
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/204074-1606634713.png?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 44,
+      "name": "Edmir Sali",
+      "age": 28,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 60,
+        "appearances": 20,
+        "cleanSheets": 5,
+        "goalsConceded": 25
+      },
+      "imageUrl": "https://www.footballdatabase.eu/images/photos/players/a_249/249582.jpg",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 45,
+      "name": "Tomas Kiri",
+      "age": 21,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 50,
+        "appearances": 18,
+        "cleanSheets": 4,
+        "goalsConceded": 22
+      },
+      "imageUrl": "https://www.bdfutbol.com/i/j/47887.jpg?v=1663748496",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 46,
+      "name": "Jorgo Meksi",
+      "age": 31,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 65,
+        "clearances": 110,
+        "appearances": 27,
+        "interceptions": 50
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/header/267546-1597782641.png?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 47,
+      "name": "Bekim Maliqi",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 70,
+        "clearances": 120,
+        "appearances": 29,
+        "interceptions": 55
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/766386-1693400376.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 48,
+      "name": "Lorran Quintana",
+      "age": 32,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 68,
+        "clearances": 115,
+        "appearances": 28,
+        "interceptions": 52
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 49,
+      "name": "Naser Aliji",
+      "age": 32,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "crosses": 40,
+        "tackles": 72,
+        "appearances": 30,
+        "interceptions": 58
+      },
+      "imageUrl": "https://fshf.org/app/uploads/2024/06/03-1.png",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 1,
+      "userId": null
+    },
+    {
+      "id": 50,
+      "name": "Ysni Ismaili",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 64,
+        "clearances": 108,
+        "appearances": 26,
+        "interceptions": 49
+      },
+      "imageUrl": "https://images.fotmob.com/image_resources/playerimages/1785255.png",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 51,
+      "name": "Rustem Hoxha",
+      "age": 34,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 75,
+        "clearances": 125,
+        "appearances": 30,
+        "interceptions": 60
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/136107-1605771093.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 52,
+      "name": "Faton Neziri",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 69,
+        "clearances": 118,
+        "appearances": 28,
+        "interceptions": 54
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/797174-1607031474.jpeg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 53,
+      "name": "Andre Teixeira",
+      "age": 32,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 71,
+        "clearances": 122,
+        "appearances": 29,
+        "interceptions": 57
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/149724-1422923199.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 54,
+      "name": "Bruno Dita",
+      "age": 33,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Attacking Midfielder",
+      "stats": {
+        "goals": 4,
+        "assists": 6,
+        "appearances": 29,
+        "passesCompleted": 950
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/189603-1602418415.png?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 55,
+      "name": "Bakari Gudiabi",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Central Midfielder",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "appearances": 27,
+        "passesCompleted": 880
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/1184100-1731440333.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 56,
+      "name": "Klevi Qefalija",
+      "age": 22,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 2,
+        "assists": 4,
+        "appearances": 25,
+        "passesCompleted": 820
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ZFxu_JQ4QtTVK04ep9vJh3kc8DpSWG1PUg&s",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 57,
+      "name": "Gasama Karamba",
+      "age": 31,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 5,
+        "assists": 5,
+        "appearances": 28,
+        "passesCompleted": 900
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/1111215-1768213620.png?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 58,
+      "name": "Fjoart Jonuzi",
+      "age": 29,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 3,
+        "assists": 4,
+        "appearances": 26,
+        "passesCompleted": 850
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmIuxF8ZmxD2JfPrCYYUR7SUJGQkEhJwQ3qw&s",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 59,
+      "name": "Ledio Beqja",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 4,
+        "assists": 5,
+        "appearances": 28,
+        "passesCompleted": 910
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/647530-1742564851.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 60,
+      "name": "Adrian Doci",
+      "age": 21,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 2,
+        "assists": 3,
+        "appearances": 24,
+        "passesCompleted": 780
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/908604-1701534040.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 61,
+      "name": "Bernard Berisha",
+      "age": 34,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 10,
+        "assists": 6,
+        "appearances": 30,
+        "shotsOnTarget": 40
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/240226-1605979135.png?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 62,
+      "name": "Lorenco Vila",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Right Winger",
+      "stats": {
+        "goals": 9,
+        "assists": 4,
+        "appearances": 28,
+        "shotsOnTarget": 35
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/509272-1686427763.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 63,
+      "name": "Eridon Qardaku",
+      "age": 25,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 7,
+        "assists": 3,
+        "appearances": 27,
+        "shotsOnTarget": 30
+      },
+      "imageUrl": "https://cdn.footystats.org/img/players/albania-eridon-qardaku.png",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 64,
+      "name": "Dejvi Bregu",
+      "age": 30,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 11,
+        "assists": 5,
+        "appearances": 30,
+        "shotsOnTarget": 42
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/226258-1680120863.png?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 65,
+      "name": "Saliou Guindo",
+      "age": 29,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Left Winger",
+      "stats": {
+        "goals": 13,
+        "assists": 4,
+        "appearances": 29,
+        "shotsOnTarget": 45
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/364854-1728394633.png?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 66,
+      "name": "Tiago Nani",
+      "age": 28,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 8,
+        "assists": 3,
+        "appearances": 26,
+        "shotsOnTarget": 33
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/613517-1745304785.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 67,
+      "name": "Florenc Farruku",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 6,
+        "assists": 2,
+        "appearances": 24,
+        "shotsOnTarget": 25
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/896365-1763273411.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 68,
+      "name": "Hekuran Berisha",
+      "age": 20,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 9,
+        "assists": 3,
+        "appearances": 28,
+        "shotsOnTarget": 34
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/1243394-1733497873.jpg?lm=1",
+      "createdAt": "2026-04-12T10:13:00.399Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 7,
+      "userId": null
+    },
+    {
+      "id": 69,
+      "name": "Visar Bekaj",
+      "age": 28,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 85,
+        "appearances": 32,
+        "cleanSheets": 11,
+        "goalsConceded": 30
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/458353-1728055404.jpg?lm=1",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 70,
+      "name": "Angelo Tafas",
+      "age": 25,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 65,
+        "appearances": 24,
+        "cleanSheets": 6,
+        "goalsConceded": 28
+      },
+      "imageUrl": "https://www.playmakerstats.com/img/jogadores/60/521660_med__20181026082438_antzelo_tafas.jpg",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 71,
+      "name": "Klajdi Kuka",
+      "age": 35,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 70,
+        "appearances": 26,
+        "cleanSheets": 8,
+        "goalsConceded": 32
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/99105-1537035778.png?lm=1",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 72,
+      "name": "Aizak Babe",
+      "age": 19,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 40,
+        "appearances": 15,
+        "cleanSheets": 3,
+        "goalsConceded": 18
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 73,
+      "name": "Anton Kresic",
+      "age": 30,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Centre Back",
+      "stats": {
+        "tackles": 70,
+        "clearances": 120,
+        "appearances": 30,
+        "interceptions": 55
+      },
+      "imageUrl": "https://img.fminside.net/facesfm26/43218089.png",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 74,
+      "name": "Johan Cortes",
+      "age": 26,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 65,
+        "clearances": 110,
+        "appearances": 28,
+        "interceptions": 50
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/627175-1753754402.jpeg?lm=1",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 75,
+      "name": "Edison Kola",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Centre Back",
+      "stats": {
+        "tackles": 62,
+        "clearances": 105,
+        "appearances": 27,
+        "interceptions": 48
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/814642-1694726553.jpg?lm=1",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 76,
+      "name": "Ermal Meta",
+      "age": 20,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defensive Midfielder",
+      "stats": {
+        "tackles": 75,
+        "appearances": 29,
+        "interceptions": 60,
+        "passesCompleted": 900
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 77,
+      "name": "Patrik Myslovic",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Central Midifielder",
+      "stats": {
+        "goals": 4,
+        "assists": 6,
+        "appearances": 30,
+        "passesCompleted": 950
+      },
+      "imageUrl": "https://cdn-img.zerozero.pt/img/jogadores/new/82/02/668202_patrik_myslovic_20250505011411.jpg",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 78,
+      "name": "Freddy Alvarez",
+      "age": 30,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Attacking Midfielder",
+      "stats": {
+        "goals": 7,
+        "assists": 8,
+        "appearances": 31,
+        "chancesCreated": 45
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/309857-1753754392.jpeg?lm=1",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 79,
+      "name": "Rimal Haxhiu",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 6,
+        "assists": 2,
+        "appearances": 24,
+        "shotsOnTarget": 25
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/545010-1663751284.jpeg?lm=1",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 80,
+      "name": "Redon Xhixha",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 15,
+        "assists": 4,
+        "appearances": 30,
+        "shotsOnTarget": 50
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/537243-1765217304.jpg?lm=1",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 81,
+      "name": "Oluwabori Falaye",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 9,
+        "assists": 3,
+        "appearances": 28,
+        "shotsOnTarget": 35
+      },
+      "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/671462-1693669093.jpg?lm=1",
+      "createdAt": "2026-04-12T15:34:24.725Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 8,
+      "userId": null
+    },
+    {
+      "id": 82,
+      "name": "Gentian Selmani",
+      "age": 27,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 85,
+        "appearances": 30,
+        "cleanSheets": 10,
+        "goalsConceded": 32
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/1-1-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 83,
+      "name": "Arlis Shala",
+      "age": 25,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 70,
+        "appearances": 27,
+        "cleanSheets": 8,
+        "goalsConceded": 28
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/3-1-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 84,
+      "name": "Elton Vata",
+      "age": 26,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 60,
+        "appearances": 24,
+        "cleanSheets": 6,
+        "goalsConceded": 25
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/2-2-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 85,
+      "name": "Albi Doka",
+      "age": 28,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 75,
+        "clearances": 130,
+        "appearances": 30,
+        "interceptions": 60
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/24-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 86,
+      "name": "Florian Pergjoni",
+      "age": 28,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 68,
+        "clearances": 120,
+        "appearances": 28,
+        "interceptions": 55
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/13-1-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 87,
+      "name": "Vasilis Zogos",
+      "age": 26,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 62,
+        "clearances": 110,
+        "appearances": 27,
+        "interceptions": 50
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/7-3-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 88,
+      "name": "Erisjon Balla",
+      "age": 19,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Right Winger",
+      "stats": {
+        "goals": 9,
+        "assists": 6,
+        "dribbles": 55,
+        "appearances": 29
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/14-1-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 89,
+      "name": "Artan Jazxhi",
+      "age": 23,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Left Winger",
+      "stats": {
+        "goals": 7,
+        "assists": 5,
+        "dribbles": 48,
+        "appearances": 27
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/16-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 90,
+      "name": "Blerim Kotobelli",
+      "age": 33,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 70,
+        "clearances": 125,
+        "appearances": 29,
+        "interceptions": 58
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/20-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 91,
+      "name": "Harallamb Qaqi",
+      "age": 32,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 65,
+        "clearances": 115,
+        "appearances": 28,
+        "interceptions": 52
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/21-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 92,
+      "name": "Higor Vidal",
+      "age": 28,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 5,
+        "assists": 7,
+        "appearances": 30,
+        "passesCompleted": 1000
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/8-3-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 93,
+      "name": "Daniel Wotlai",
+      "age": 22,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Defensive Midfielder",
+      "stats": {
+        "goals": 4,
+        "assists": 6,
+        "appearances": 29,
+        "passesCompleted": 950
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/lojtaret-2-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 94,
+      "name": "Ergis Arifi",
+      "age": 18,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Central Midfielder",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "appearances": 28,
+        "passesCompleted": 900
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/15-2-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 95,
+      "name": "Xhoele Macolli",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 2,
+        "assists": 4,
+        "appearances": 27,
+        "passesCompleted": 850
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/5-3-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 96,
+      "name": "Emiliano Vila",
+      "age": 37,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "tackles": 80,
+        "appearances": 30,
+        "interceptions": 65,
+        "passesCompleted": 920
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/23-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 97,
+      "name": "Ardit Toli",
+      "age": 28,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Attacking Midfielder",
+      "stats": {
+        "tackles": 75,
+        "appearances": 28,
+        "interceptions": 60,
+        "passesCompleted": 880
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/17-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 98,
+      "name": "Muco Boci",
+      "age": 22,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 15,
+        "assists": 4,
+        "appearances": 30,
+        "shotsOnTarget": 50
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/18-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 99,
+      "name": "Jakub Myszor",
+      "age": 23,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 12,
+        "assists": 3,
+        "appearances": 29,
+        "shotsOnTarget": 45
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/lojtaret-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 100,
+      "name": "Mario Beshiraj",
+      "age": 25,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 10,
+        "assists": 2,
+        "appearances": 28,
+        "shotsOnTarget": 40
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/19-1-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 101,
+      "name": "David Fadairo",
+      "age": 24,
+      "gender": "MALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 8,
+        "assists": 2,
+        "appearances": 27,
+        "shotsOnTarget": 35
+      },
+      "imageUrl": "https://kfteuta.al/wp-content/uploads/2025/08/12-2-1638x2048.png",
+      "createdAt": "2026-04-12T15:50:23.899Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 9,
+      "userId": null
+    },
+    {
+      "id": 102,
+      "name": "Rajmonda Spahiu",
+      "age": 20,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 88,
+        "appearances": 32,
+        "cleanSheets": 11,
+        "goalsConceded": 30
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 103,
+      "name": "Antigoni Hyska",
+      "age": 22,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Goalkeeper",
+      "stats": {
+        "saves": 65,
+        "appearances": 25,
+        "cleanSheets": 7,
+        "goalsConceded": 26
+      },
+      "imageUrl": "https://cdn-img.zerozero.pt/img/jogadores/new/25/38/832538_antigoni_hyska_20250609221923.png",
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 104,
+      "name": "Alma Hilaj",
+      "age": 26,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 78,
+        "clearances": 135,
+        "appearances": 31,
+        "interceptions": 62
+      },
+      "imageUrl": "https://www.playmakerstats.com/img/jogadores/11/624511_med__20191104172417_alma_hilaj.jpg",
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 105,
+      "name": "Arbenita Curraj",
+      "age": 29,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 72,
+        "clearances": 128,
+        "appearances": 30,
+        "interceptions": 58
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 106,
+      "name": "Xhesika Ndoj",
+      "age": 18,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 68,
+        "clearances": 120,
+        "appearances": 29,
+        "interceptions": 55
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 107,
+      "name": "Klea Hamonikaj",
+      "age": 22,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 65,
+        "clearances": 115,
+        "appearances": 28,
+        "interceptions": 52
+      },
+      "imageUrl": "https://cdn-img.zerozero.pt/img/jogadores/new/57/52/755752_klea_hamonikaj_20250609223444.png",
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 108,
+      "name": "Aglia Iliadhi",
+      "age": 21,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 70,
+        "clearances": 125,
+        "appearances": 30,
+        "interceptions": 57
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 109,
+      "name": "Leonora Dedgjonaj",
+      "age": 26,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Defender",
+      "stats": {
+        "tackles": 63,
+        "clearances": 110,
+        "appearances": 27,
+        "interceptions": 50
+      },
+      "imageUrl": "https://cdn-img.zerozero.pt/img/jogadores/new/70/21/1547021_leonora_dedgjonaj_20250609152117.jpg",
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 110,
+      "name": "Qendresa Krasniqi",
+      "age": 31,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Central Midfielder",
+      "stats": {
+        "goals": 6,
+        "assists": 8,
+        "appearances": 32,
+        "passesCompleted": 1050
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 111,
+      "name": "Megi Doci",
+      "age": 29,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Attacking Midfielder",
+      "stats": {
+        "goals": 5,
+        "assists": 7,
+        "appearances": 30,
+        "passesCompleted": 980
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 112,
+      "name": "Esmeralda Franja",
+      "age": 29,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Defensive Midfielder",
+      "stats": {
+        "goals": 4,
+        "assists": 6,
+        "appearances": 29,
+        "passesCompleted": 920
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 113,
+      "name": "Gresa Berisha",
+      "age": 27,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "appearances": 28,
+        "passesCompleted": 880
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 114,
+      "name": "Ilarja Zarka",
+      "age": 24,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Midfielder",
+      "stats": {
+        "tackles": 82,
+        "appearances": 31,
+        "interceptions": 68,
+        "passesCompleted": 940
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 115,
+      "name": "Fortesa Berisha",
+      "age": 22,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 16,
+        "assists": 5,
+        "appearances": 32,
+        "shotsOnTarget": 55
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 116,
+      "name": "Mimoza Hamidi",
+      "age": 27,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 13,
+        "assists": 4,
+        "appearances": 30,
+        "shotsOnTarget": 48
+      },
+      "imageUrl": "https://cdn-img.zerozero.pt/img/jogadores/new/62/51/536251_mimoza_hamidi_20251108193201.jpg",
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 117,
+      "name": "Valentina Troka",
+      "age": 23,
+      "gender": "FEMALE",
+      "sport": "football",
+      "position": "Striker",
+      "stats": {
+        "goals": 10,
+        "assists": 3,
+        "appearances": 28,
+        "shotsOnTarget": 40
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T16:18:05.516Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 10,
+      "userId": null
+    },
+    {
+      "id": 118,
+      "name": "Enea Kostaqi",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 12.5,
+        "assistsPerGame": 5.2,
+        "reboundsPerGame": 3.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 119,
+      "name": "Remil Kamberi",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 24,
+        "pointsPerGame": 14.2,
+        "assistsPerGame": 3.5,
+        "reboundsPerGame": 4
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 120,
+      "name": "Elis Saliaj",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 10.8,
+        "assistsPerGame": 2.8,
+        "reboundsPerGame": 5.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 121,
+      "name": "Ledjo Celmeta",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 9.5,
+        "assistsPerGame": 2,
+        "reboundsPerGame": 7.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 122,
+      "name": "Alteo Cibukaj",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 22,
+        "blocksPerGame": 1.8,
+        "pointsPerGame": 11,
+        "assistsPerGame": 1.5,
+        "reboundsPerGame": 8.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 123,
+      "name": "Daniel Ago",
+      "age": 18,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 25,
+        "pointsPerGame": 15.3,
+        "assistsPerGame": 3.2,
+        "reboundsPerGame": 6.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 124,
+      "name": "Erni Alia",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 8.2,
+        "assistsPerGame": 4.5,
+        "reboundsPerGame": 2.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 125,
+      "name": "Sejdi Mema",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 9.8,
+        "assistsPerGame": 2.5,
+        "reboundsPerGame": 3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 126,
+      "name": "Roel Gongo",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 7.5,
+        "assistsPerGame": 2,
+        "reboundsPerGame": 4.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 127,
+      "name": "Xhoel Veliaj",
+      "age": 15,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 8,
+        "assistsPerGame": 1.8,
+        "reboundsPerGame": 6.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 128,
+      "name": "David Thomai",
+      "age": 15,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 22,
+        "blocksPerGame": 1.5,
+        "pointsPerGame": 10.2,
+        "assistsPerGame": 1.2,
+        "reboundsPerGame": 7.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 129,
+      "name": "Gleon Bari",
+      "age": 15,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 11.5,
+        "assistsPerGame": 3,
+        "reboundsPerGame": 3.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 130,
+      "name": "Rajbi Bakiasi",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 7.8,
+        "assistsPerGame": 4.2,
+        "reboundsPerGame": 2.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 131,
+      "name": "Emal Xure",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 7.8,
+        "assistsPerGame": 4.2,
+        "reboundsPerGame": 2.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 132,
+      "name": "Ditmar Dervishi",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 9.2,
+        "assistsPerGame": 1.5,
+        "reboundsPerGame": 6.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T19:45:16.236Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 12,
+      "userId": null
+    },
+    {
+      "id": 133,
+      "name": "Islail Shabaj",
+      "age": 18,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 24,
+        "pointsPerGame": 13.5,
+        "assistsPerGame": 6,
+        "reboundsPerGame": 3.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 134,
+      "name": "Besard Hykaj",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 14.8,
+        "assistsPerGame": 3.5,
+        "reboundsPerGame": 4.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 135,
+      "name": "Jear Cocja",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 11.2,
+        "assistsPerGame": 2.8,
+        "reboundsPerGame": 5.6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 136,
+      "name": "Sidrit Muja",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 10.5,
+        "assistsPerGame": 2,
+        "reboundsPerGame": 7.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 137,
+      "name": "Juled Rizvanolli",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 24,
+        "blocksPerGame": 1.9,
+        "pointsPerGame": 12,
+        "assistsPerGame": 1.5,
+        "reboundsPerGame": 9.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 138,
+      "name": "Erdis Alushi",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 13,
+        "assistsPerGame": 3.2,
+        "reboundsPerGame": 3.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 139,
+      "name": "Roan Smakaj",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 10,
+        "assistsPerGame": 2.5,
+        "reboundsPerGame": 5.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 140,
+      "name": "Klevi Katana",
+      "age": 18,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 25,
+        "pointsPerGame": 12.8,
+        "assistsPerGame": 5.5,
+        "reboundsPerGame": 3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 141,
+      "name": "Rejan Lumani",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 24,
+        "pointsPerGame": 14,
+        "assistsPerGame": 3.8,
+        "reboundsPerGame": 4.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 142,
+      "name": "Devis Hila",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 11.5,
+        "assistsPerGame": 2.7,
+        "reboundsPerGame": 5.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 143,
+      "name": "Artgen Coku",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 9.8,
+        "assistsPerGame": 1.9,
+        "reboundsPerGame": 7
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 144,
+      "name": "Jordi Preka",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 23,
+        "blocksPerGame": 1.6,
+        "pointsPerGame": 11.3,
+        "assistsPerGame": 1.4,
+        "reboundsPerGame": 8.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 145,
+      "name": "Edrion Kuci",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 12.5,
+        "assistsPerGame": 3.1,
+        "reboundsPerGame": 3.9
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 146,
+      "name": "Raili Bajama",
+      "age": 18,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 24,
+        "pointsPerGame": 13.2,
+        "assistsPerGame": 2.9,
+        "reboundsPerGame": 6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 147,
+      "name": "Aaron Kruja",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 10.5,
+        "assistsPerGame": 5,
+        "reboundsPerGame": 2.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 148,
+      "name": "Samuel Bazhdari",
+      "age": 15,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 8.5,
+        "assistsPerGame": 1.7,
+        "reboundsPerGame": 6.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 149,
+      "name": "Leon Hotaj",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 7.8,
+        "assistsPerGame": 2,
+        "reboundsPerGame": 5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 150,
+      "name": "Gersi Kroni",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 11,
+        "assistsPerGame": 3,
+        "reboundsPerGame": 3.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:03:06.861Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 13,
+      "userId": null
+    },
+    {
+      "id": 151,
+      "name": "Bernald Qoku",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 8,
+        "assistsPerGame": 4.5,
+        "reboundsPerGame": 2.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 152,
+      "name": "Roxhens Koci",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 24,
+        "pointsPerGame": 14.5,
+        "assistsPerGame": 3.5,
+        "reboundsPerGame": 4.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 153,
+      "name": "Dorian Ismailisufi",
+      "age": 18,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 25,
+        "pointsPerGame": 13,
+        "assistsPerGame": 3,
+        "reboundsPerGame": 5.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 154,
+      "name": "Alvi Murto",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 24,
+        "pointsPerGame": 11.5,
+        "assistsPerGame": 2.2,
+        "reboundsPerGame": 7
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 155,
+      "name": "Dejvi Zaimaj",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 24,
+        "blocksPerGame": 1.7,
+        "pointsPerGame": 12.2,
+        "assistsPerGame": 1.5,
+        "reboundsPerGame": 8.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 156,
+      "name": "Rigers Vogli",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 13.8,
+        "assistsPerGame": 3.2,
+        "reboundsPerGame": 4
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 157,
+      "name": "Savio Peqini",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 10.5,
+        "assistsPerGame": 2.8,
+        "reboundsPerGame": 5.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 158,
+      "name": "Biorni Albesi",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 11,
+        "assistsPerGame": 5,
+        "reboundsPerGame": 3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 159,
+      "name": "Erik Gagani",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 12.5,
+        "assistsPerGame": 3,
+        "reboundsPerGame": 3.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 160,
+      "name": "Alvin Broli",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 11.2,
+        "assistsPerGame": 2.6,
+        "reboundsPerGame": 5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 161,
+      "name": "Geri Garori",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power forward",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 10.8,
+        "assistsPerGame": 2,
+        "reboundsPerGame": 7.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 162,
+      "name": "Roel Shaba",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 24,
+        "blocksPerGame": 1.6,
+        "pointsPerGame": 11.5,
+        "assistsPerGame": 1.3,
+        "reboundsPerGame": 8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 163,
+      "name": "Alban Bulku",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 24,
+        "pointsPerGame": 13,
+        "assistsPerGame": 3.4,
+        "reboundsPerGame": 4.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 164,
+      "name": "Andri Tola",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 10,
+        "assistsPerGame": 2.5,
+        "reboundsPerGame": 5.3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 165,
+      "name": "Boiken Bakiasi",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 11.5,
+        "assistsPerGame": 5.2,
+        "reboundsPerGame": 3.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 166,
+      "name": "Tedi Qesja",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 23,
+        "pointsPerGame": 9.5,
+        "assistsPerGame": 1.8,
+        "reboundsPerGame": 6.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 167,
+      "name": "Aaron Qyrfycja",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 10.2,
+        "assistsPerGame": 2.4,
+        "reboundsPerGame": 5.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 168,
+      "name": "Alex Medani",
+      "age": 14,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 7.5,
+        "assistsPerGame": 2,
+        "reboundsPerGame": 3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-12T20:14:34.765Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 14,
+      "userId": null
+    },
+    {
+      "id": 169,
+      "name": "Erik Prifti",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 11.2,
+        "assistsPerGame": 5.8,
+        "reboundsPerGame": 3.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 170,
+      "name": "Alesio Dogani",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 13.5,
+        "assistsPerGame": 3.2,
+        "reboundsPerGame": 4
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 171,
+      "name": "Syrja Sulaj",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 12.1,
+        "assistsPerGame": 2.5,
+        "reboundsPerGame": 5.6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 172,
+      "name": "Deni Shahu",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 10.3,
+        "assistsPerGame": 1.4,
+        "reboundsPerGame": 7.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 173,
+      "name": "Alen Asllanaj ",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 9.8,
+        "assistsPerGame": 1.1,
+        "reboundsPerGame": 8.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 174,
+      "name": "Albjon Mehmeti",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 10.7,
+        "assistsPerGame": 6.2,
+        "reboundsPerGame": 2.9
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 175,
+      "name": "Mishel Troka",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 14,
+        "assistsPerGame": 3.5,
+        "reboundsPerGame": 4.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 176,
+      "name": "Frenkli Kastrati",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 11.6,
+        "assistsPerGame": 2.3,
+        "reboundsPerGame": 6.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 177,
+      "name": "Albi Lloshi",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 12.4,
+        "assistsPerGame": 1.8,
+        "reboundsPerGame": 7.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 178,
+      "name": "Kejdi Lame",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 9.9,
+        "assistsPerGame": 1.2,
+        "reboundsPerGame": 8.9
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 179,
+      "name": "Rei Gjini",
+      "age": 15,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 10.5,
+        "assistsPerGame": 4.7,
+        "reboundsPerGame": 3.3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 180,
+      "name": "Rajli Bregovina",
+      "age": 15,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 9.7,
+        "assistsPerGame": 3.9,
+        "reboundsPerGame": 4
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 181,
+      "name": "Benino Gishto",
+      "age": 15,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 17,
+        "pointsPerGame": 8.8,
+        "assistsPerGame": 2.6,
+        "reboundsPerGame": 5.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 182,
+      "name": "Kristi Muhametaj",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 11.1,
+        "assistsPerGame": 3.1,
+        "reboundsPerGame": 4.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 183,
+      "name": "Orges Bakiasi",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 10.2,
+        "assistsPerGame": 2.9,
+        "reboundsPerGame": 5.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 184,
+      "name": "Alesjo Mucaj",
+      "age": 17,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 12,
+        "assistsPerGame": 3.3,
+        "reboundsPerGame": 4.6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 185,
+      "name": "Arjon Duraj",
+      "age": 16,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 9.4,
+        "assistsPerGame": 2.7,
+        "reboundsPerGame": 4.3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 186,
+      "name": "Dejvis Mema",
+      "age": 18,
+      "gender": "MALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 13.2,
+        "assistsPerGame": 4,
+        "reboundsPerGame": 5.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T09:11:58.144Z",
+      "updatedAt": "2026-04-13T11:09:54.639Z",
+      "teamId": 15,
+      "userId": null
+    },
+    {
+      "id": 187,
+      "name": "Kjara Bode",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 9.5,
+        "assistsPerGame": 4.2,
+        "reboundsPerGame": 2.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 188,
+      "name": "Mikaela Begolli",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 11.3,
+        "assistsPerGame": 2.1,
+        "reboundsPerGame": 3.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 189,
+      "name": "Evi Papa",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 12,
+        "assistsPerGame": 2.5,
+        "reboundsPerGame": 5.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 190,
+      "name": "Soegla Fusha",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 10.6,
+        "assistsPerGame": 1.7,
+        "reboundsPerGame": 6.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 191,
+      "name": "Imesta Kullolli",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 9.8,
+        "assistsPerGame": 1.2,
+        "reboundsPerGame": 7.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 192,
+      "name": "Tesa Hoxha",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 8.7,
+        "assistsPerGame": 4.8,
+        "reboundsPerGame": 2.3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 193,
+      "name": "Emili Kaciqi",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 10.2,
+        "assistsPerGame": 2.9,
+        "reboundsPerGame": 3.6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 194,
+      "name": "Anja Brahimi",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 11.1,
+        "assistsPerGame": 2.4,
+        "reboundsPerGame": 4.9
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 195,
+      "name": "Sibel Gjyzeli",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 9.4,
+        "assistsPerGame": 1.5,
+        "reboundsPerGame": 6.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 196,
+      "name": "Lorinda Zhupi",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 8.9,
+        "assistsPerGame": 1.1,
+        "reboundsPerGame": 7.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 197,
+      "name": "Izabel Kacorri",
+      "age": 18,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 12.5,
+        "assistsPerGame": 2.7,
+        "reboundsPerGame": 4.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 198,
+      "name": "Fitnete Qoku",
+      "age": 18,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 11.7,
+        "assistsPerGame": 2.3,
+        "reboundsPerGame": 5.6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 199,
+      "name": "Sofia Aliaj",
+      "age": 15,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 7.9,
+        "assistsPerGame": 3.9,
+        "reboundsPerGame": 2.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 200,
+      "name": "Helena Byberi",
+      "age": 13,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 16,
+        "pointsPerGame": 6.5,
+        "assistsPerGame": 2,
+        "reboundsPerGame": 2.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 201,
+      "name": "Antea Filopati",
+      "age": 14,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 17,
+        "pointsPerGame": 7.3,
+        "assistsPerGame": 1.8,
+        "reboundsPerGame": 4.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 202,
+      "name": "Megi Kulli",
+      "age": 15,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 9.1,
+        "assistsPerGame": 1.4,
+        "reboundsPerGame": 6.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 203,
+      "name": "Afeida Balla",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 10.8,
+        "assistsPerGame": 1.3,
+        "reboundsPerGame": 7.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 204,
+      "name": "Erisa Tershalla",
+      "age": 15,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 7.6,
+        "assistsPerGame": 4.1,
+        "reboundsPerGame": 2.4
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T10:23:22.919Z",
+      "updatedAt": "2026-04-13T11:09:54.654Z",
+      "teamId": 16,
+      "userId": null
+    },
+    {
+      "id": 205,
+      "name": "Charlotte Shkurti",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 9.8,
+        "assistsPerGame": 4.5,
+        "reboundsPerGame": 2.7
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:19:45.285Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 206,
+      "name": "Sarbela Barjamaj",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 11,
+        "assistsPerGame": 2.3,
+        "reboundsPerGame": 3.9
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:19:46.718Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 207,
+      "name": "Diana Selimaj",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 10.7,
+        "assistsPerGame": 2.1,
+        "reboundsPerGame": 5.4
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:19:47.293Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 208,
+      "name": "Sabjora Sheko",
+      "age": 15,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 9.6,
+        "assistsPerGame": 1.6,
+        "reboundsPerGame": 6.7
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:19:47.789Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 209,
+      "name": "Regen Dhefto",
+      "age": 14,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 8.4,
+        "assistsPerGame": 1.2,
+        "reboundsPerGame": 7.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:19:48.252Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 210,
+      "name": "Anisa Xhaferi",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 12.3,
+        "assistsPerGame": 2.8,
+        "reboundsPerGame": 4.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:19:48.779Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 211,
+      "name": "Argida Hoxha",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 11.5,
+        "assistsPerGame": 2.4,
+        "reboundsPerGame": 5.9
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:20:00.647Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 212,
+      "name": "Amira Driza",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 8.9,
+        "assistsPerGame": 4.1,
+        "reboundsPerGame": 2.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:20:01.357Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 213,
+      "name": "Kejsi Isufi",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 10.4,
+        "assistsPerGame": 2.2,
+        "reboundsPerGame": 3.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:20:02.006Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 214,
+      "name": "Emi Kapo",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 9.9,
+        "assistsPerGame": 1.5,
+        "reboundsPerGame": 6.3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:20:02.585Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 215,
+      "name": "Pesjana Myrtaj",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 10.1,
+        "assistsPerGame": 2,
+        "reboundsPerGame": 5.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:20:03.164Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 216,
+      "name": "Izabela Kucaj",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 8.6,
+        "assistsPerGame": 4.3,
+        "reboundsPerGame": 2.6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:20:03.713Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 217,
+      "name": "Maris Kaso",
+      "age": 13,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 16,
+        "pointsPerGame": 6.8,
+        "assistsPerGame": 1.9,
+        "reboundsPerGame": 3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:20:04.293Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 218,
+      "name": "Sara Zinxhiria",
+      "age": 15,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 9.2,
+        "assistsPerGame": 2.1,
+        "reboundsPerGame": 4.7
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:31:13.277Z",
+      "updatedAt": "2026-04-13T11:20:04.777Z",
+      "teamId": 17,
+      "userId": null
+    },
+    {
+      "id": 219,
+      "name": "Ensa Perdja",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 8.9,
+        "assistsPerGame": 4,
+        "reboundsPerGame": 2.6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:16.996Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 220,
+      "name": "Rajana Bizi",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 10.8,
+        "assistsPerGame": 2.3,
+        "reboundsPerGame": 3.7
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:18.584Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 221,
+      "name": "Amanda Selmani",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 11.2,
+        "assistsPerGame": 2.5,
+        "reboundsPerGame": 5.3
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:19.248Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 222,
+      "name": "Ines Neziri",
+      "age": 14,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 17,
+        "pointsPerGame": 7.4,
+        "assistsPerGame": 1.5,
+        "reboundsPerGame": 6.1
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:19.867Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 223,
+      "name": "Rejhana Rexhvelaj",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 9.5,
+        "assistsPerGame": 1.3,
+        "reboundsPerGame": 7.4
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:20.399Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 224,
+      "name": "Shendi Temali",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 22,
+        "pointsPerGame": 12,
+        "assistsPerGame": 2.7,
+        "reboundsPerGame": 4
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:20.983Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 225,
+      "name": "Noemi Hallunaj",
+      "age": 13,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 16,
+        "pointsPerGame": 6.7,
+        "assistsPerGame": 3.6,
+        "reboundsPerGame": 2.2
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:21.574Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 226,
+      "name": "Era Mjeda",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 10.5,
+        "assistsPerGame": 2.2,
+        "reboundsPerGame": 5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:21.935Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 227,
+      "name": "Ajla Haxhija",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Power Forward",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 10.1,
+        "assistsPerGame": 2.4,
+        "reboundsPerGame": 3.6
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:22.487Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 228,
+      "name": "Bora Alushi",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Shooting Guard",
+      "stats": {
+        "gamesPlayed": 20,
+        "pointsPerGame": 9.3,
+        "assistsPerGame": 1.6,
+        "reboundsPerGame": 6.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:23.080Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 229,
+      "name": "Visara Demaj",
+      "age": 15,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Small Forward",
+      "stats": {
+        "gamesPlayed": 19,
+        "pointsPerGame": 9,
+        "assistsPerGame": 2.1,
+        "reboundsPerGame": 4.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:23.613Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 230,
+      "name": "Antea Isufi",
+      "age": 18,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Center",
+      "stats": {
+        "gamesPlayed": 21,
+        "pointsPerGame": 11.4,
+        "assistsPerGame": 1.4,
+        "reboundsPerGame": 7.9
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:24.090Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 231,
+      "name": "Reisa Trashani",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "basketball",
+      "position": "Point Guard",
+      "stats": {
+        "gamesPlayed": 18,
+        "pointsPerGame": 8.5,
+        "assistsPerGame": 3.8,
+        "reboundsPerGame": 2.5
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T11:50:08.166Z",
+      "updatedAt": "2026-04-13T11:33:24.546Z",
+      "teamId": 18,
+      "userId": null
+    },
+    {
+      "id": 232,
+      "name": "Sara Stafa",
+      "age": 18,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Setter",
+      "stats": {
+        "acesPerGame": 1.2,
+        "digsPerGame": 2.5,
+        "gamesPlayed": 24,
+        "blocksPerGame": 0.6,
+        "assistsPerGame": 8.9
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKNYS5TZHeSvwNNtIV5F9-HIABZfqokSrpxA&s",
+      "createdAt": "2026-04-13T12:22:21.029Z",
+      "updatedAt": "2026-04-13T12:30:19.000Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 233,
+      "name": "Adma Mikopula",
+      "age": 20,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Setter",
+      "stats": {
+        "acesPerGame": 1,
+        "digsPerGame": 2.8,
+        "gamesPlayed": 26,
+        "blocksPerGame": 0.7,
+        "assistsPerGame": 9.5
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/1679423339tz9PE.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:31:41.305Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 234,
+      "name": "Azra Capkin",
+      "age": 21,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Setter",
+      "stats": {
+        "acesPerGame": 1.3,
+        "digsPerGame": 3,
+        "gamesPlayed": 27,
+        "blocksPerGame": 0.8,
+        "assistsPerGame": 10.2
+      },
+      "imageUrl": "https://www.topstaragencyvolleyball.com/uploads/fotograf_20230629114929.jpg",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 235,
+      "name": "Desjona Filaj",
+      "age": 21,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Outside Hitter",
+      "stats": {
+        "acesPerGame": 1.4,
+        "digsPerGame": 3.2,
+        "gamesPlayed": 25,
+        "killsPerGame": 12.1,
+        "blocksPerGame": 1.1
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnG3tjZ3C8qx3Zs4RjARp1OoZ_txl0vbV_LQ&s",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 236,
+      "name": "Kejsi Shira",
+      "age": 27,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Outside Hitter",
+      "stats": {
+        "acesPerGame": 1.8,
+        "digsPerGame": 3.5,
+        "gamesPlayed": 28,
+        "killsPerGame": 14.3,
+        "blocksPerGame": 1.4
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/1694861042CBT5Z.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 237,
+      "name": "Xhovana Kacorri",
+      "age": 27,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Outside Hitter",
+      "stats": {
+        "acesPerGame": 1.5,
+        "digsPerGame": 3.1,
+        "gamesPlayed": 27,
+        "killsPerGame": 13.5,
+        "blocksPerGame": 1.2
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3Al5my8cHE2pC2yIg78zT0s-hB-nM_uP1Q&s",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 238,
+      "name": "Eda Gjermeni",
+      "age": 35,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Outside Hitter",
+      "stats": {
+        "acesPerGame": 1.2,
+        "digsPerGame": 3.8,
+        "gamesPlayed": 26,
+        "killsPerGame": 11.8,
+        "blocksPerGame": 1
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG5HzJtZ9vpTDtvcFSSR5VVa5BSFuo1DtoMQ&s",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 239,
+      "name": "Danjela Kodra",
+      "age": 22,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Outside Hitter",
+      "stats": {
+        "acesPerGame": 1.3,
+        "digsPerGame": 3,
+        "gamesPlayed": 25,
+        "killsPerGame": 12.9,
+        "blocksPerGame": 1.1
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/1632512590ZBp6O.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 240,
+      "name": "Klavia Peteza",
+      "age": 32,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Middle Blocker",
+      "stats": {
+        "acesPerGame": 0.7,
+        "digsPerGame": 1.8,
+        "gamesPlayed": 26,
+        "killsPerGame": 9.2,
+        "blocksPerGame": 2.6
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kaXvx0P1ZYkIL8Xoc5iHMgT4jZGJf5WITA&s",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 241,
+      "name": "Joana Kushi",
+      "age": 27,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Middle Blocker",
+      "stats": {
+        "acesPerGame": 0.8,
+        "digsPerGame": 1.6,
+        "gamesPlayed": 27,
+        "killsPerGame": 10.1,
+        "blocksPerGame": 3
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2JtkgXFUuXM6BZgT_hsiSCR6ibTZJIXvsgg&s",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 242,
+      "name": "Uenda Bytyci",
+      "age": 22,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Middle Blocker",
+      "stats": {
+        "acesPerGame": 0.9,
+        "digsPerGame": 1.5,
+        "gamesPlayed": 24,
+        "killsPerGame": 9.8,
+        "blocksPerGame": 2.7
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7lT2uXY9UBeOcE59VWSlqxQ5BcqBeYBjqWQ&s",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 243,
+      "name": "Megi Sallahu",
+      "age": 22,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Middle Blocker",
+      "stats": {
+        "acesPerGame": 0.8,
+        "digsPerGame": 1.4,
+        "gamesPlayed": 25,
+        "killsPerGame": 10.5,
+        "blocksPerGame": 3.2
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/big_17562100473UxIi.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 244,
+      "name": "Xhesika Kaci",
+      "age": 24,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Libero",
+      "stats": {
+        "acesPerGame": 0.5,
+        "digsPerGame": 5.8,
+        "gamesPlayed": 28,
+        "errorsPerGame": 0.8,
+        "receivesPerGame": 6.5
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuc083WZ_Jl2Z9XngRkdKJVW27ZBiOB-04g&s",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 245,
+      "name": "Ajla Lundra",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Universal",
+      "stats": {
+        "digsPerGame": 3,
+        "gamesPlayed": 20,
+        "killsPerGame": 8.7,
+        "blocksPerGame": 1,
+        "assistsPerGame": 2.5
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/17578018058EXdg.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 246,
+      "name": "Libora Ismailati",
+      "age": 18,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Universal",
+      "stats": {
+        "digsPerGame": 3.2,
+        "gamesPlayed": 21,
+        "killsPerGame": 9.5,
+        "blocksPerGame": 1.1,
+        "assistsPerGame": 2.8
+      },
+      "imageUrl": null,
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 247,
+      "name": "Danai Cani",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Universal",
+      "stats": {
+        "digsPerGame": 3.1,
+        "gamesPlayed": 20,
+        "killsPerGame": 8.9,
+        "blocksPerGame": 1,
+        "assistsPerGame": 2.6
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/1757802088i8ybQ.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 248,
+      "name": "Eriselda Troksi",
+      "age": 20,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Universal",
+      "stats": {
+        "digsPerGame": 3.4,
+        "gamesPlayed": 23,
+        "killsPerGame": 10.2,
+        "blocksPerGame": 1.2,
+        "assistsPerGame": 2.9
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/1757802931v5brA.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 249,
+      "name": "Marla Begu",
+      "age": 16,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Universal",
+      "stats": {
+        "digsPerGame": 2.9,
+        "gamesPlayed": 19,
+        "killsPerGame": 8.4,
+        "blocksPerGame": 0.9,
+        "assistsPerGame": 2.3
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/1757802210beN1r.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    },
+    {
+      "id": 250,
+      "name": "Nefeli Cani",
+      "age": 17,
+      "gender": "FEMALE",
+      "sport": "volleyball",
+      "position": "Universal",
+      "stats": {
+        "digsPerGame": 3,
+        "gamesPlayed": 20,
+        "killsPerGame": 8.8,
+        "blocksPerGame": 1,
+        "assistsPerGame": 2.7
+      },
+      "imageUrl": "https://volleybox.net/media/upload/players/1757802777kYe4J.png",
+      "createdAt": "2026-04-13T12:45:54.890Z",
+      "updatedAt": "2026-04-13T12:53:08.064Z",
+      "teamId": 24,
+      "userId": null
+    }
+  ],
+  "matches": []
+}
