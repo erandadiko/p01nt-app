@@ -89,6 +89,16 @@ function prismaErrorResponse(error: unknown) {
   return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
 }
 
+async function syncPlayersIdSequence(): Promise<void> {
+  await prisma.$executeRawUnsafe(`
+    SELECT setval(
+      pg_get_serial_sequence('players','id'),
+      COALESCE((SELECT MAX(id) FROM players), 0) + 1,
+      false
+    );
+  `);
+}
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
@@ -223,20 +233,41 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const player = await prisma.player.create({
-      data: {
-        name: name.trim(),
-        age: typeof age === 'number' ? age : null,
-        gender: normalizedGender,
-        sport: normalizedSport as Sport,
-        position: typeof position === 'string' ? position : null,
-        teamId: resolvedTeamId,
-        stats: normalizedStats,
-      },
-      include: {
-        team: true,
-      },
-    });
+    const playerData = {
+      name: name.trim(),
+      age: typeof age === 'number' ? age : null,
+      gender: normalizedGender,
+      sport: normalizedSport as Sport,
+      position: typeof position === 'string' ? position : null,
+      teamId: resolvedTeamId,
+      stats: normalizedStats,
+    };
+
+    let player;
+    try {
+      player = await prisma.player.create({
+        data: playerData,
+        include: {
+          team: true,
+        },
+      });
+    } catch (error) {
+      // Self-heal after bulk imports that leave the autoincrement sequence behind MAX(id).
+      if (
+        error instanceof Prisma.PrismaClientKnownRequestError &&
+        error.code === 'P2002'
+      ) {
+        await syncPlayersIdSequence();
+        player = await prisma.player.create({
+          data: playerData,
+          include: {
+            team: true,
+          },
+        });
+      } else {
+        throw error;
+      }
+    }
 
     console.log('Player created', { id: player.id, name: player.name, gender: player.gender });
 
